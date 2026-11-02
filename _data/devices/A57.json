@@ -25,6 +25,14 @@
         },
         {
           "version": "21",
+          "date": "2026-11-02",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20261102",
+          "changelog_text": [
+            "- Updated security patches (2026-10-01)"
+          ]
+        },
+        {
+          "version": "21",
           "date": "2026-02-01",
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20260201",
           "changelog_text": [
