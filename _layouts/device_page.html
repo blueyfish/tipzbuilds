@@ -10,7 +10,9 @@ layout: default
 
 <div class="rom-container">
   {% assign rom_groups = device_data.roms %}
+  {% assign is_first_rom = false %}
   {% for rom_group in rom_groups %}
+    {% assign is_first_rom = forloop.first %}
     <div class="rom-group" style="margin-bottom: 50px; text-align: left;">
       <h2 style="color: var(--primary-color); border-bottom: 3px solid var(--primary-color); padding-bottom: 10px; margin-bottom: 20px; text-align: left; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; font-size: 1.8rem;">{{ rom_group.name }}</h2>
 
@@ -34,7 +36,7 @@ layout: default
               {% assign version_builds = builds | where_exp: "item", "item.version == version" %}
               {% for build in version_builds %}
                 {% assign is_absolute_top = false %}
-                {% if is_first_version and forloop.first %}
+                {% if is_first_rom and is_first_version and forloop.first %}
                   {% assign is_absolute_top = true %}
                 {% endif %}
                 <tr style="border-bottom: 1px solid var(--border-color);">
@@ -95,7 +97,11 @@ layout: default
                     {% endif %}
                   </td>
                   <td style="vertical-align: top; text-align: center;">
-                    <a href="{{ build.download }}" class="btn btn-primary" style="font-size: 0.8em; padding: 6px 12px; display: block;">Download</a>
+                    {% if build.download and build.download != "" %}
+                      <a href="{{ build.download }}" class="btn btn-primary" style="font-size: 0.8em; padding: 6px 12px; display: block;">Download</a>
+                    {% else %}
+                      <span style="font-size: 0.8em; color: var(--text-muted, #888);">Unavailable</span>
+                    {% endif %}
                   </td>
                 </tr>
               {% endfor %}
