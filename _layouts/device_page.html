@@ -44,19 +44,48 @@ layout: default
                       <details {% if is_absolute_top %}open{% endif %} style="margin-top: 0;">
                         <summary class="btn-secondary" style="margin-top: 0 !important; padding: 6px 12px; font-size: 0.8em; cursor: pointer; background-color: #444; color: white !important; border-radius: 4px; display: inline-block; font-weight: 600; border: none; outline: none;">View Changes</summary>
                         <div class="changelog-content" style="margin-top: 10px; padding: 10px; background: var(--bg-color); border-radius: 4px; font-size: 0.85em; text-align: left; border: 1px solid var(--border-color);">
+                          {% assign changelog_list_level = 0 %}
+                          {% assign changelog_list_indent = 0 %}
                           {% for line in build.changelog_text %}
                             {% assign stripped_line = line | strip %}
                             {% if stripped_line != "" %}
+                              {% assign original_length = line | size %}
+                              {% assign stripped_length = stripped_line | size %}
+                              {% assign indent_size = original_length | minus: stripped_length %}
                               {% if stripped_line contains "-" or stripped_line contains "*" %}
-                                <div style="margin-left: 15px; display: flex; align-items: flex-start; margin-bottom: 4px;">
-                                  <span style="margin-right: 5px;">•</span>
-                                  <span>{{ stripped_line | remove: "- " | remove: "* " }}</span>
-                                </div>
+                                {% if changelog_list_level == 0 %}
+                                  <ul style="margin: 4px 0 8px 20px; padding-left: 18px; list-style-type: disc;">
+                                  {% assign changelog_list_level = 1 %}
+                                  {% assign changelog_list_indent = indent_size %}
+                                {% elsif indent_size > changelog_list_indent %}
+                                  <ul style="margin: 4px 0 8px 24px; padding-left: 18px; list-style-type: circle;">
+                                  {% assign changelog_list_level = 2 %}
+                                  {% assign changelog_list_indent = indent_size %}
+                                {% elsif indent_size < changelog_list_indent %}
+                                  </ul>
+                                  {% assign changelog_list_level = 1 %}
+                                  {% assign changelog_list_indent = 0 %}
+                                {% endif %}
+                                <li style="margin-bottom: 6px;">{{ stripped_line | remove: "- " | remove: "* " }}</li>
                               {% else %}
-                                <strong style="display: block; margin-top: 8px; margin-bottom: 4px; color: var(--primary-color);">{{ stripped_line }}</strong>
+                                {% if changelog_list_level == 2 %}
+                                  </ul>
+                                {% endif %}
+                                {% if changelog_list_level >= 1 %}
+                                  </ul>
+                                {% endif %}
+                                {% assign changelog_list_level = 0 %}
+                                {% assign changelog_list_indent = 0 %}
+                                <strong style="display: block; margin-top: 10px; margin-bottom: 6px; color: var(--primary-color);">{{ stripped_line }}</strong>
                               {% endif %}
                             {% endif %}
                           {% endfor %}
+                          {% if changelog_list_level == 2 %}
+                            </ul>
+                          {% endif %}
+                          {% if changelog_list_level >= 1 %}
+                            </ul>
+                          {% endif %}
                         </div>
                       </details>
                     {% elsif build.changelog or build.changelog_url %}
