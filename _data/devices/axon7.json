@@ -13,9 +13,7 @@
             "- Improve overall performance",
             "- Enable RCU_NOCB",
             "- Enable sched HMP C-state aware support",
-            "- Drop input boost support",
-            "- Boot image: https://sourceforge.net/projects/tipzbuilds/files/ROMs/ZTE Axon 7/LineageOS 18.1/20261101/boot.img",
-            "- Recovery image: https://sourceforge.net/projects/tipzbuilds/files/ROMs/ZTE Axon 7/LineageOS 18.1/20261101/recovery.img"
+            "- Drop input boost support"
           ]
         },
         {
@@ -24,8 +22,7 @@
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/ZTE Axon 7/LineageOS 18.1/20261031/lineage-18.1-20261031-UNOFFICIAL-axon7.zip",
           "changelog_text": [
             "- Updated to latest Android 11",
-            "- Fixed fingerprint usage",
-            "- Boot image and recovery image also available in the same SourceForge folder"
+            "- Fixed fingerprint usage"
           ]
         },
         {
@@ -37,8 +34,7 @@
             "- Re-enabled Treble support (A/B VNDK Lite)",
             "- Switched to AOSP WiFi display casting",
             "- Added up-to-date kernel security patches",
-            "- Known issue: WebView is not bundled; install Google's version manually",
-            "- Boot image and recovery image also available in the same SourceForge folder"
+            "- Known issue: WebView is not bundled; install Google's version manually"
           ]
         },
         {
