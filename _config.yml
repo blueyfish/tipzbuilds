@@ -2,8 +2,8 @@
 title: Tipz Team Builds Tracker
 email: rcheung844@gmail.com
 description: Tracker for Android builds from Tipz Team.
-baseurl: ""
-url: https://blueyfish.github.io/tipzbuilds
+baseurl: "/tipzbuilds"
+url: https://blueyfish.github.io
 
 collections:
   devices:
