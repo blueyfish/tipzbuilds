@@ -9,58 +9,71 @@ layout: default
 <h1 style="margin-bottom: 20px;">{{ device_name }} Releases</h1>
 
 <div class="rom-container">
-  {% assign rom_names = device_data.roms | map: "name" | uniq %}
-  {% for rom_name in rom_names %}
-    <div class="rom-group" style="margin-bottom: 40px; text-align: left;">
-      <h2 style="color: var(--primary-color); border-bottom: 2px solid var(--accent-color); padding-bottom: 10px; margin-bottom: 15px; text-align: left; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto;">{{ rom_name }}</h2>
-      <table class="rom-table">
-        <thead>
-          <tr>
-            <th>Version</th>
-            <th>Date</th>
-            <th>Changelog</th>
-            <th>Download</th>
-          </tr>
-        </thead>
-        <tbody>
-          {% assign filtered_roms = device_data.roms | where_exp: "item", "item.name == rom_name" %}
-          {% for rom in filtered_roms %}
-            <tr>
-              <td><strong>{{ rom.version }}</strong></td>
-              <td>{{ rom.date }}</td>
-              <td>
-                {% if rom.changelog_text %}
-                  <details>
-                    <summary class="btn-secondary" style="padding: 2px 8px; font-size: 0.8em;">View Changes</summary>
-                    <div class="changelog-content" style="margin: 10px 0; padding: 10px; background: var(--accent-color); border-radius: 4px; font-size: 0.9em; text-align: left;">
-                      {% for line in rom.changelog_text %}
-                        {% assign stripped_line = line | strip %}
-                        {% if stripped_line != "" %}
-                          {% if stripped_line contains "-" or stripped_line contains "*" %}
-                            <div style="margin-left: 20px; display: flex; align-items: flex-start; margin-bottom: 4px;">
-                              <span style="margin-right: 8px;">•</span>
-                              <span>{{ stripped_line | remove: "- " | remove: "* " }}</span>
-                            </div>
-                          {% else %}
-                            <strong style="display: block; margin-top: 12px; margin-bottom: 6px; color: var(--primary-color);">{{ stripped_line }}</strong>
-                          {% endif %}
-                        {% endif %}
-                      {% endfor %}
-                    </div>
-                  </details>
-                {% elsif rom.changelog or rom.changelog_url %}
-                  <a href="{{ rom.changelog | default: rom.changelog_url }}" class="external-link">View External &rarr;</a>
-                {% else %}
-                  No changelog
+  {% assign rom_groups = device_data.roms %}
+  {% for rom_group in rom_groups %}
+    <div class="rom-group" style="margin-bottom: 50px; text-align: left;">
+      <h2 style="color: var(--primary-color); border-bottom: 3px solid var(--primary-color); padding-bottom: 10px; margin-bottom: 20px; text-align: left; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; font-size: 1.8rem;">{{ rom_group.name }}</h2>
+
+      {% assign builds = rom_group.builds %}
+      {% assign versions = builds | map: "version" | uniq %}
+
+      {% for version in versions %}
+        {% assign is_first_version = forloop.first %}
+        <div class="version-section" style="margin-bottom: 30px; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto;">
+          <h3 style="font-size: 1.3rem; margin-bottom: 10px; color: var(--text-color);">Version {{ version }}</h3>
+
+          <table class="rom-table">
+            <thead>
+              <tr style="background-color: var(--accent-color);">
+                <th style="width: 20%;">Date</th>
+                <th style="width: 60%;">Changelog</th>
+                <th style="width: 20%;">Download</th>
+              </tr>
+            </thead>
+            <tbody style="background-color: var(--card-bg);">
+              {% assign version_builds = builds | where_exp: "item", "item.version == version" %}
+              {% for build in version_builds %}
+                {% assign is_absolute_top = false %}
+                {% if is_first_version and forloop.first %}
+                  {% assign is_absolute_top = true %}
                 {% endif %}
-              </td>
-              <td>
-                <a href="{{ rom.download }}" class="btn btn-primary">Download</a>
-              </td>
-            </tr>
-          {% endfor %}
-        </tbody>
-      </table>
+                <tr style="border-bottom: 1px solid var(--border-color);">
+                  <td style="vertical-align: top; white-space: nowrap;">{{ build.date }}</td>
+                  <td style="vertical-align: top;">
+                    {% if build.changelog_text %}
+                      <details {% if is_absolute_top %}open{% endif %} style="margin-top: 0;">
+                        <summary class="btn-secondary" style="margin-top: 0 !important; padding: 6px 12px; font-size: 0.8em; cursor: pointer; background-color: #444; color: white !important; border-radius: 4px; display: inline-block; font-weight: 600; border: none; outline: none;">View Changes</summary>
+                        <div class="changelog-content" style="margin-top: 10px; padding: 10px; background: var(--bg-color); border-radius: 4px; font-size: 0.85em; text-align: left; border: 1px solid var(--border-color);">
+                          {% for line in build.changelog_text %}
+                            {% assign stripped_line = line | strip %}
+                            {% if stripped_line != "" %}
+                              {% if stripped_line contains "-" or stripped_line contains "*" %}
+                                <div style="margin-left: 15px; display: flex; align-items: flex-start; margin-bottom: 4px;">
+                                  <span style="margin-right: 5px;">•</span>
+                                  <span>{{ stripped_line | remove: "- " | remove: "* " }}</span>
+                                </div>
+                              {% else %}
+                                <strong style="display: block; margin-top: 8px; margin-bottom: 4px; color: var(--primary-color);">{{ stripped_line }}</strong>
+                              {% endif %}
+                            {% endif %}
+                          {% endfor %}
+                        </div>
+                      </details>
+                    {% elsif build.changelog or build.changelog_url %}
+                      <a href="{{ build.changelog | default: build.changelog_url }}" class="external-link">View External &rarr;</a>
+                    {% else %}
+                      No changelog provided.
+                    {% endif %}
+                  </td>
+                  <td style="vertical-align: top; text-align: center;">
+                    <a href="{{ build.download }}" class="btn btn-primary" style="font-size: 0.8em; padding: 6px 12px; display: block;">Download</a>
+                  </td>
+                </tr>
+              {% endfor %}
+            </tbody>
+            </table>
+        </div>
+      {% endfor %}
     </div>
   {% endfor %}
 </div>
