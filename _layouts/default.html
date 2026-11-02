@@ -3,7 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }} | {{ site.title }}</title>
+  {% assign title_device_id = page.url | split: '/' | last | split: '.html' | first %}
+{% assign title_device_data = site.data.devices[title_device_id] %}
+<title>{% if title_device_data %}{{ title_device_data.device }} ({{ title_device_data.codename }}) | {{ site.title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title
   <link rel="icon" type="image/svg+xml" href="{{ '/logo.svg' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>

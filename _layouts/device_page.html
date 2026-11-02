@@ -6,7 +6,7 @@ layout: default
 {% assign device_data = site.data.devices[device_id] %}
 
 {% assign device_name = device_data.device | default: "Device" %}
-<h1 style="margin-bottom: 20px;">{{ device_name }} Releases</h1>
+<h1 style="margin-bottom: 20px;">{{ device_name }} ({{ device_data.codename }}) builds</h1>
 
 <div class="rom-container">
   {% assign rom_groups = device_data.roms %}
