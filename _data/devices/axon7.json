@@ -34,8 +34,13 @@
             "- Re-enabled Treble support (A/B VNDK Lite)",
             "- Switched to AOSP WiFi display casting",
             "- Added up-to-date kernel security patches",
-            "- Known issue: WebView is not bundled; install Google's version manually"
+            "Known issue",
+            "- WebView is not bundled; install Google's version manually"
           ]
+        },
+        {
+          "version": "18.0",
+          "date": "2026-10-27"
         },
         {
           "version": "17.1",
@@ -54,7 +59,8 @@
           "changelog_text": [
             "- Fixed RIL crashing issue",
             "- Fixed libashmemd_client logspam",
-            "- Known issue: WiFi MAC Address"
+            "Known issue",
+            "- WiFi MAC Address"
           ]
         },
         {
@@ -66,8 +72,13 @@
             "- Fixed NFC, sensors and camera",
             "- Fixed disabling physical hardware keys",
             "- Massive blob upgrade alongside kernel upstream",
-            "- Known issue: Radio does not work (needs upgrading the stack; likely since 16.0)"
+            "Known issue",
+            "- Radio does not work (needs upgrading the stack; likely since 16.0)"
           ]
+        },
+        {
+          "version": "17.1",
+          "date": "2026-10-25"
         },
         {
           "version": "17.1",
