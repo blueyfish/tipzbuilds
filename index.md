@@ -4,7 +4,8 @@ title: Home
 ---
 
 <div class="device-grid">
-  {% for device in site.data.devices_list %}
+  {% assign sorted_devices = site.data.devices_list | sort: "device" %}
+  {% for device in sorted_devices %}
     <a href="{{ device.url | relative_url }}" class="device-card">
       <h3>{{ device.device }}</h3>
       <p>Codename: <code style="display: inline-block;">{{ device.codename }}</code></p>
