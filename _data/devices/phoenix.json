@@ -1,0 +1,167 @@
+{
+  "device": "Lenovo PHAB Plus",
+  "codename": "phoenix",
+  "roms": [
+    {
+      "name": "LineageOS",
+      "builds": [
+        {
+          "version": "19.1",
+          "date": "2023-07-14",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 12/LineageOS 19.1/lineage-19.1-20230714-UNOFFICIAL-phoenix.zip",
+          "changelog_text": [
+            "- Updated to July security patch"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2023-04-30",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 12/LineageOS 19.1/lineage-19.1-20230430-UNOFFICIAL-phoenix.zip",
+          "changelog_text": [
+            "- Updated to April security patch",
+            "- Small performance bumps"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2022-06-19",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 12/LineageOS 19.1/lineage-19.1-20220619-UNOFFICIAL-phoenix.zip",
+          "changelog_text": [
+            "- Enabled 5G hotspot",
+            "- Improved various sensors",
+            "- Improved general responsiveness (slightly)",
+            "- Increased ZRAM size to 1536MB"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2022-06-18",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 12/LineageOS 19.1/lineage-19.1-20220618-UNOFFICIAL-phoenix.zip",
+          "changelog_text": [
+            "- Updated to latest LineageOS source",
+            "- Enabled DT2W",
+            "- Improve touch responsiveness (slightly)"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2022-03-24",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 12/LineageOS 19.1/lineage-19.1-20220324-UNOFFICIAL-phoenix.zip"
+        },
+        {
+          "version": "18.1",
+          "date": "2022-03-19",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 11/LineageOS 18.1/lineage-18.1-20220319-UNOFFICIAL-phoenix.zip"
+        },
+        {
+          "version": "17.1",
+          "date": "2022-03-17",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 10/LineageOS 17.1/lineage-17.1-20220317-UNOFFICIAL-phoenix.zip",
+          "changelog_text": [
+            "- Fixed Camera (except for video recording)"
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2022-03-05",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 10/LineageOS 17.1/lineage-17.1-20220305-UNOFFICIAL-phoenix.zip",
+          "changelog_text": [
+            "- Latest security patches"
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2021-08-15",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 10/LineageOS 17.1/lineage-17.1-20210815-UNOFFICIAL-phoenix.zip",
+          "changelog_text": [
+            "- Fix incorrect Bluetooth MAC address",
+            "- Update fluence props"
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2021-08-13",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 10/LineageOS 17.1/lineage-17.1-20210813-UNOFFICIAL-phoenix.zip",
+          "changelog_text": [
+            "- Updated EGL blobs to LA.BR.1.2.9_rb1.18",
+            "- Correct GPS week rollover timestamps (from Jason Laskowski)",
+            "- Update SEPolicy allows",
+            "- Copy prebuilt qcril.db files"
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2020-08-10",
+          "download": "https://androidfilehost.com/?fid=8889791610682912398",
+          "changelog_text": [
+            "- Kernel CVE fixes etc."
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2020-08-04",
+          "changelog_text": [
+            "- Fixed LEDs etc."
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2020-08-02",
+          "changelog_text": [
+            "- Fix Audio! (Speaker) etc."
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2020-07-21",
+          "changelog_text": [
+            "- Performance optimizations etc."
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2020-07-19",
+          "changelog_text": [
+            "Kernel: various backports"
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2020-07-15",
+          "changelog_text": [
+            "- Fixed a few lag issues etc."
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2020-07-14",
+          "changelog_text": [
+            "- Fix vm_bms (charging issues)"
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2020-07-12",
+          "changelog_text": [
+            "- First source compile etc."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CyanogenMod",
+      "builds": [
+        {
+          "version": "12.1",
+          "date": "2021-04-25",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/CyanogenMod 12.1/cm-12.1-20210425-UNOFFICIAL-phoenix.zip"
+        },
+        {
+          "version": "12.1",
+          "date": "2021-03-21",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/CyanogenMod 12.1/cm-12.1-20210321-UNOFFICIAL-phoenix.zip"
+        }
+      ]
+    }
+  ]
+}

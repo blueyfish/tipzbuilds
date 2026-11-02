@@ -1,0 +1,26 @@
+{
+  "device": "Samsung Galaxy Star",
+  "codename": "mint2g",
+  "roms": [
+    {
+      "name": "CyanogenMod",
+      "builds": [
+        {
+          "version": "12.1",
+          "date": "2020-05-23",
+          "download": "https://androidfilehost.com/?fid=4349826312261816487"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS",
+      "builds": [
+        {
+          "version": "12.1",
+          "date": "2020-05-23",
+          "download": "https://androidfilehost.com/?fid=4349826312261816628"
+        }
+      ]
+    }
+  ]
+}

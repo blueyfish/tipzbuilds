@@ -1,0 +1,56 @@
+{
+  "device": "OPPO R9 Plus",
+  "codename": "R9Plus",
+  "roms": [
+    {
+      "name": "LineageOS",
+      "builds": [
+        {
+          "version": "22.0",
+          "date": "2026-07-15",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9 Plus/LineageOS 22.0/20260715",
+          "changelog_text": [
+            "- Initial update to Android 15",
+            "- Security patch level back to 2024-11-05"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2026-03-16",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9 Plus/LineageOS 21/20260316",
+          "changelog_text": [
+            "- Fixed microphone",
+            "- Enabled waking with home button"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2026-02-17",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9 Plus/LineageOS 21/20260217",
+          "changelog_text": [
+            "- Fixed rear camera and flashlight",
+            "- Fixed media audio playback",
+            "- Enabled Always-on Display",
+            "- Improve speed of starting radio",
+            "- Split out /odm into a partition"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2026-02-13",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9 Plus/LineageOS 21/20260213",
+          "changelog_text": [
+            "Known bugs:",
+            "- Rear camera & Flashlight",
+            "- Audio Playback when watching videos",
+            "- Always-on Display",
+            "Notes:",
+            "- Use TWRP 3.7.1_12-Alpha4 to flash",
+            "- Flashing GSIs will not work due to squashfs system",
+            "- Use alternative methods to flash GMS"
+          ]
+        }
+      ]
+    }
+  ]
+}

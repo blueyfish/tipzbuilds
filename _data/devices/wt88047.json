@@ -1,0 +1,16 @@
+{
+  "device": "Xiaomi Redmi 2",
+  "codename": "wt88047",
+  "roms": [
+    {
+      "name": "SuperiorOS",
+      "builds": [
+        {
+          "version": "Nemesis (Pie)",
+          "date": "2020-07-11 07:32",
+          "download": "https://androidfilehost.com/?w=files&flid=314942"
+        }
+      ]
+    }
+  ]
+}

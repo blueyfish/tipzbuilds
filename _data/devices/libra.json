@@ -1,0 +1,43 @@
+{
+  "device": "Xiaomi Mi 4c",
+  "codename": "libra",
+  "roms": [
+    {
+      "name": "Mokee",
+      "builds": [
+        {
+          "version": "71.2",
+          "date": "2022-07-27 12:58",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Mi 4c/Mokee 71.2/MK71.2-libra-202207271258-UNOFFICIAL.zip"
+        }
+      ]
+    },
+    {
+      "name": "LineageOS",
+      "builds": [
+        {
+          "version": "19.1",
+          "date": "2022-05-18",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Mi 4c/LineageOS 19.1/lineage-19.1-20220518-UNOFFICIAL-libra.zip",
+          "changelog_text": [
+            "- Fixed DT2W",
+            "- Added support for Dirac audio enhancement",
+            "- Added support for Ambient Display",
+            "- Added support for Edge Tap",
+            "- Improved power consumption estimation"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2022-05-15",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Mi 4c/LineageOS 19.1/lineage-19.1-20220515-UNOFFICIAL-libra.zip"
+        },
+        {
+          "version": "18.1",
+          "date": "2022-05-13",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Mi 4c/LineageOS 18.1/lineage-18.1-20220513-UNOFFICIAL-libra.zip"
+        }
+      ]
+    }
+  ]
+}

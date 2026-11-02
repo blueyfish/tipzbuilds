@@ -1,0 +1,462 @@
+{
+  "device": "OPPO A57 (2016)",
+  "codename": "A57",
+  "roms": [
+    {
+      "name": "LineageOS",
+      "builds": [
+        {
+          "version": "22.1",
+          "date": "2026-07-15",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 22.1/20260715",
+          "changelog_text": [
+            "- Update to Android 15 AP4A.250205.002",
+            "- Security patch level up to 2025-04-01"
+          ]
+        },
+        {
+          "version": "22.0",
+          "date": "2026-07-15",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 22.0/20260715",
+          "changelog_text": [
+            "- Initial update to Android 15",
+            "- Security patch level back to 2024-11-05"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2026-02-01",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20260201",
+          "changelog_text": [
+            "- Fixed offline camera post processing (incl. zoom)",
+            "- Increased usable battery capacity",
+            "- General kernel updates"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2025-12-30",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20251230",
+          "changelog_text": [
+            "- Updated to 2025-12-01 security patch",
+            "- Force enabled some IMS features (for VoLTE)",
+            "- Fixed camera preview discolouration",
+            "- Dropped camera remosaic feature",
+            "- Cleaned up unused camera binaries"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2025-12-23",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20251223",
+          "changelog_text": [
+            "- Updated to 2025-10-01 security patch",
+            "- Fixed green border issue for front camera",
+            "- Fixed usage of WPA2/WPA3 mixed mode WiFi APs",
+            "- Improved persistence of WiFi connection when sleeping",
+            "- Enabled aptX (HD) & LDAC offload"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2025-08-04",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20250804",
+          "changelog_text": [
+            "- Fixed picture capture (by disabling offline post processing)",
+            "- Improved IMEI fix to retry NV dump indefinitely",
+            "- Enabled updateable APEX",
+            "- Fixed WiFi and IMEI SV issue on GSIs",
+            "Note: If you are dirty flashing to this version, the device may take up to 10 minutes to boot up for the first time"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2025-07-20",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20250720",
+          "changelog_text": [
+            "- Fixed displaying IMEI",
+            "- Fixed fingerprint illustration",
+            "- Fixed WiFi assisted GPS"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2025-07-14",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20250714",
+          "changelog_text": [
+            "- Updated GPS drivers",
+            "- Fixed Vulkan graphics"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2025-07-11",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20250711",
+          "changelog_text": [
+            "- Fixed voice call audio",
+            "- Improved audio experiences",
+            "- Increased actual peak brightness",
+            "- Reverted change to discard files for userdata",
+            "- Removed unnecessary files"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2025-06-28-1",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20250628-1",
+          "changelog_text": [
+            "- Fixed variant detection for some China devices",
+            "- Added support for detecting OPPO A57t",
+            "Note: None of these changes should affect actual usability, you may safely skip this build"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2025-06-28",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20250628",
+          "changelog_text": [
+            "- Updated graphics and media drivers",
+            "- Updated to QSSI HAL",
+            "- Fixed WiFi issues on CPH1701fw",
+            "- Improved storage write speed"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2025-06-27",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20250627",
+          "changelog_text": [
+            "- Updated audio and DSP blobs",
+            "- Moved to new build architecture (thortanium!)",
+            "- June 2025 Security Patch Level",
+            "- Fixed sensor issues for users coming from stock",
+            "- Fixed possible WiFi issues for some devices"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2025-05-21-1",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20250521-1",
+          "changelog_text": [
+            "- Fixed incorrect memory access of oppo_touchscreen driver (Fixed bootup of Phh GSIs)"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2025-05-21",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20250521",
+          "changelog_text": [
+            "- Fixed MTP/PTP stack",
+            "- Fixed USB IDs in some circumstances",
+            "- Updated OSS camera stack"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2025-05-20",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20250520",
+          "changelog_text": [
+            "- Added support for using device as camera",
+            "- Enabled WiFi bonding mode to improve speeds",
+            "- Updated gatekeeper and keymaster modules",
+            "- Copied all required ANT+ blobs"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2025-05-15",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20250515",
+          "changelog_text": [
+            "- Fixed camera & flashlight (picture capture remains broken)",
+            "- Added support for CABC (Content Adaptive Backlight Control)"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2025-05-10",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20250510",
+          "changelog_text": [
+            "- Android 14 & LineageOS 21 features",
+            "- Updated most proprietary blobs from FP3 & PAN",
+            "- Fixed pref related log spam",
+            "- Added ANT+ support",
+            "Note: This build also contains experimentation with sensors"
+          ]
+        },
+        {
+          "version": "20",
+          "date": "2025-05-08~1",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 20/20250508-1",
+          "changelog_text": [
+            "- Build some parts of GNSS HAL from source",
+            "- Improve accuracy of GPS usage",
+            "- Decreased power consumption of GPS usage",
+            "- Updated PowerOffAlarm stack to fix potential issues"
+          ]
+        },
+        {
+          "version": "20",
+          "date": "2025-05-08",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 20/20250508",
+          "changelog_text": [
+            "- Android 13 & LineageOS 20 features (inc. Bluetooth improvements)",
+            "- Moved storage encryption to FBE v1",
+            "- Enabled 64-bit dex2oat for faster app installs",
+            "- Added support for managing battery charging",
+            "- Improved auto brightness",
+            "- Updated QTI Bluetooth HAL"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2025-05-01",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 19.1 (msm-4.9)/20250501",
+          "changelog_text": [
+            "- Reverted back to daisy blobs",
+            "- Fixed call audio"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2025-04-30",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 19.1 (msm-4.9)/20250430",
+          "changelog_text": [
+            "- Updated security patch level to 2025-03-05",
+            "- Updated vendor security patch level to 2018-08-05",
+            "- Synced kernel source with LineageOS (inc. security patches)",
+            "- Updated QCRILD stack (from FP3)",
+            "- Fixed battery usage & charging issues",
+            "- Fixed light & proximity sensor issues (with FP3 HAL)",
+            "- Added support to determine device variants"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2024-12-27",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 19.1 (msm-4.9)/20241227",
+          "changelog_text": [
+            "- Updated to security patch level 2024-12-05",
+            "- Updated kernel to include latest patches from LineageOS",
+            "- Updated to QSSI proprietary blobs from Nokia 4.2",
+            "- Fixed some sensor issues (light sensor, virtual gyroscope)"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2024-08-14",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 19.1 (msm-4.9)/20240814",
+          "changelog_text": [
+            "- Re-enabled DC In power supply path",
+            "- Improve haptics feedback"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2024-08-13",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 19.1 (msm-4.9)/20240813",
+          "changelog_text": [
+            "- Updated to 2024-08 ASB",
+            "- Updated kernel from LineageOS upstream",
+            "- Fixed some possible kernel crashes",
+            "- Imported some more OPPO charger behavior"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2024-07-22",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 19.1 (msm-4.9)/20240722",
+          "changelog_text": [
+            "- Removed a broken thermal node",
+            "- Slightly reworked and cleaned up devicetree bindings"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2024-07-21",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 19.1 (msm-4.9)/20240721",
+          "changelog_text": [
+            "- Fixed SD Card",
+            "- Import OPPO camera changes",
+            "- Updated Qualcomm USB init scripts",
+            "- Changed USB VIDs/PIDs to OPPO"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2024-07-20",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 19.1 (msm-4.9)/20240720",
+          "changelog_text": [
+            "Kernel:",
+            "- Updated to Linux Kernel 4.9.337",
+            "- Enabled eBPF",
+            "- Improved performance and responsiveness",
+            "- Added support to disable headphone PA power supply when not in use",
+            "- Fixed possible kernel panic related to WiFi usage",
+            "- Switched to QTI Haptics",
+            "- Fixed not showing \"Charging rapidly\" text on lockscreen",
+            "Userspace:",
+            "- Updated mixer paths to LA.UM.10.6.2.r1-02500-89xx.to",
+            "- Shipped WiFi firmware to not depend on the /persist partition",
+            "- Enabled support for LC3 codec",
+            "- Disabled ultra low latency playback to fix crackling audio"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2024-07-16",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 19.1/20240716",
+          "changelog_text": [
+            "- Updated to July 2024 Security Patch",
+            "- Enabled support for Ultra Low Power State (ULPS) mode for all display panels",
+            "- Fixed WiFi MAC address",
+            "- Added support for more ambient display features"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2024-07-05",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 19.1/20240705",
+          "changelog_text": [
+            "- Fixed fingerprint sensor",
+            "- Fixed FM Radio",
+            "- Enabled 5V2A charging",
+            "Quirks:",
+            "- Empty IMEI",
+            "- Camera (including Flashlight)",
+            "- WiFi (MAC address)",
+            "- Some carriers cause modem crashes",
+            "- Off-screen gestures"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2024-07-02",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 19.1/20240702",
+          "changelog_text": [
+            "- Fixed mobile data for 2G/3G",
+            "- Fixed calls for 2G/3G",
+            "- Fixed charging issues with higher wattage chargers",
+            "Quirks:",
+            "- FM Radio is broken",
+            "- Off-screen gestures work only intermediately",
+            "- 4G does not work and will result in crashes"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2024-06-29",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 19.1/20240629",
+          "changelog_text": [
+            "- Fixed modem fatal errors and SoC restart (again)",
+            "- Fixed 2G/3G calls",
+            "Quirks:",
+            "- FM Radio is broken",
+            "- Off-screen gestures work only intermediately",
+            "- 4G and data connection does not work and will result in crashes",
+            "- Calls are ended randomly"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2024-06-25",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 19.1/20240625",
+          "changelog_text": [
+            "- Fixed modem fatal errors and SoC restart",
+            "- Fixed application pinner config",
+            "Quirks:",
+            "- FM Radio is broken",
+            "- Off-screen gestures work only intermediately"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2024-06-23",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 19.1/20240623",
+          "changelog_text": [
+            "- Updated to Android 12L",
+            "- Fixed incorrect WiFi hotspot name",
+            "- Fixed connecting to WPA3 WiFi",
+            "- Fixed perfd not applying optimizations",
+            "- Improved boot & shutdown times",
+            "Quirks:",
+            "- FM Radio is broken",
+            "- Off-screen gestures work only intermediately"
+          ]
+        },
+        {
+          "version": "18.1",
+          "date": "2025-05-23",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 18.1/20250523",
+          "changelog_text": [
+            "- Updated to Linux Kernel 4.9",
+            "- Moved storage encryption to FBE v1",
+            "- Fixed camera & flashlight (picture capture remains broken)",
+            "- Fixed incorrect memory access of oppo_touchscreen driver (Fixed bootup of Phh GSIs)",
+            "- Fixed mobile data & calls (migrated to qcrild)",
+            "- Fixed slow / fast charging problems",
+            "- Fixed fingerprint sensor",
+            "- Fixed WiFi MAC address",
+            "- Added support for CABC (Content Adaptive Backlight Control)",
+            "- Improved auto brightness",
+            "- Added ANT+ support",
+            "- Enabled WiFi bonding mode to improve speeds",
+            "- Fixed incorrect WiFi hotspot name",
+            "- Fixed fingerprint blob log spam",
+            "Android security patch: 2025-05-05"
+          ]
+        },
+        {
+          "version": "18.1",
+          "date": "2024-06-22",
+          "download": "https://sourceforge.net/projects/ uma/tipzbuilds/files/ROMs/OPPO A57/LineageOS 18.1/lineage-18.1-20240622-UNOFFICIAL-A57.zip",
+          "changelog_text": [
+            "- Added support for disabling capacitive keys and enabling gestures",
+            "- Added support for swapping back and menu buttons",
+            "- Optimized graphics performance"
+          ]
+        },
+        {
+          "version": "18.1",
+          "date": "2024-06-17",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 18.1/lineage-18.1-20240617-UNOFFICIAL-A57.zip",
+          "changelog_text": [
+            "- Updated Security Patch Level to 2024-06-05"
+          ]
+        },
+        {
+          "version": "18.1",
+          "date": "2024-06-09",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 18.1/historical/lineage-18.1-20240609-UNOFFICIAL-A57.zip",
+          "changelog_text": [
+            "- Updated LineageOS 18.1 source",
+            "- Added support for LEDs (battery & notification)",
+            "- Added support for screen-off touchscreen gestures",
+            "- Added support for double tap to wake",
+            "- Fixed volume panel not defaulting to the left"
+          ]
+        },
+        {
+          "version": "18.1",
+          "date": "2022-05-26",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO%20A57/LineageOS%2018.1/lineage-18.1-20220526-UNOFFICIAL-A57.zip",
+          "changelog_text": [
+            "- Cleaned up init scripts",
+            "- Enabled ZRAM",
+            "- Fixed Encryption",
+            "- Enabled Sound Trigger"
+          ]
+        },
+        {
+          "version": "18.1",
+          "date": "2022-05-22",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO%20A57/LineageOS%2018.1/lineage-18.1-20220522-UNOFFICIAL-A57.zip",
+          "changelog_text": [
+            "- Fixed Audio (speakers, microphones, earpiece, line out)",
+            "- Fixed adsprpcd",
+            "- Fixed SIM card detection and some capabilities"
+          ]
+        }
+      ]
+    }
+  ]
+}

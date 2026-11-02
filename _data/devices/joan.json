@@ -1,0 +1,16 @@
+{
+  "device": "LG V30",
+  "codename": "joan",
+  "roms": [
+    {
+      "name": "LineageOS",
+      "builds": [
+        {
+          "version": "21",
+          "date": "2024-04-06",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/LG V30/LineageOS 21/lineage-21.0-20240406-UNOFFICIAL-joan.zip"
+        }
+      ]
+    }
+  ]
+}

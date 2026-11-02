@@ -1,0 +1,110 @@
+{
+  "device": "ZTE Axon 7",
+  "codename": "axon7",
+  "roms": [
+    {
+      "name": "LineageOS",
+      "builds": [
+        {
+          "version": "18.1",
+          "date": "2026-11-01",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/ZTE Axon 7/LineageOS 18.1/20261101/lineage-18.1-20261101-UNOFFICIAL-axon7.zip",
+          "changelog_text": [
+            "- Improve overall performance",
+            "- Enable RCU_NOCB",
+            "- Enable sched HMP C-state aware support",
+            "- Drop input boost support",
+            "- Boot image: https://sourceforge.net/projects/tipzbuilds/files/ROMs/ZTE Axon 7/LineageOS 18.1/20261101/boot.img",
+            "- Recovery image: https://sourceforge.net/projects/tipzbuilds/files/ROMs/ZTE Axon 7/LineageOS 18.1/20261101/recovery.img"
+          ]
+        },
+        {
+          "version": "18.1",
+          "date": "2026-10-31",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/ZTE Axon 7/LineageOS 18.1/20261031/lineage-18.1-20261031-UNOFFICIAL-axon7.zip",
+          "changelog_text": [
+            "- Updated to latest Android 11",
+            "- Fixed fingerprint usage",
+            "- Boot image and recovery image also available in the same SourceForge folder"
+          ]
+        },
+        {
+          "version": "18.0",
+          "date": "2026-10-29",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/ZTE Axon 7/LineageOS 18.0/20261029/lineage-18.0-20261029-UNOFFICIAL-axon7.zip",
+          "changelog_text": [
+            "- Updated to Android 11 (older security patch)",
+            "- Re-enabled Treble support (A/B VNDK Lite)",
+            "- Switched to AOSP WiFi display casting",
+            "- Added up-to-date kernel security patches",
+            "- Known issue: WebView is not bundled; install Google's version manually",
+            "- Boot image and recovery image also available in the same SourceForge folder"
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2026-11-01",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/ZTE Axon 7/LineageOS 17.1/lineage-17.1-20261101-UNOFFICIAL-axon7.zip",
+          "changelog_text": [
+            "- Fixed WiFi MAC Address",
+            "- Fixed fingerprint usage",
+            "- Updated widevine DRM blobs"
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2026-10-27",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/ZTE Axon 7/LineageOS 17.1/lineage-17.1-20261027-UNOFFICIAL-axon7.zip",
+          "changelog_text": [
+            "- Fixed RIL crashing issue",
+            "- Fixed libashmemd_client logspam",
+            "- Known issue: WiFi MAC Address"
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2026-10-26",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/ZTE Axon 7/LineageOS 17.1/lineage-17.1-20261026-UNOFFICIAL-axon7.zip",
+          "changelog_text": [
+            "- Security patches up to December 2025 (shown 2023-02-05)",
+            "- Fixed NFC, sensors and camera",
+            "- Fixed disabling physical hardware keys",
+            "- Massive blob upgrade alongside kernel upstream",
+            "- Known issue: Radio does not work (needs upgrading the stack; likely since 16.0)"
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2022-06-30",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/ZTE Axon 7/LineageOS 17.1/lineage-17.1-20220630-UNOFFICIAL-axon7.zip",
+          "changelog_text": [
+            "Note: Buggy release, use latest build."
+          ]
+        },
+        {
+          "version": "16.0",
+          "date": "2026-11-01",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/ZTE Axon 7/LineageOS 16.0/lineage-16.0-20261101-UNOFFICIAL-axon7.zip",
+          "changelog_text": [
+            "- Includes latest platform SPL patches (up to 2025/06)",
+            "- Fixed disabling physical hardware keys",
+            "- Fixed RIL crashing issue"
+          ]
+        },
+        {
+          "version": "16.0",
+          "date": "2022-06-26",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/ZTE Axon 7/LineageOS 16.0/lineage-16.0-20220626-UNOFFICIAL-axon7.zip",
+          "changelog_text": [
+            "- Updated LineageOS 16.0 source with ASB May and June picked",
+            "- Device name renamed to \"ZTE Axon 7\"",
+            "- Switched to A2017U's MMS user agent profile",
+            "- Enabled Burn-In Protection",
+            "- Fixed missing prop for audio amp",
+            "- Fixed navigation bar issue"
+          ]
+        }
+      ]
+    }
+  ]
+}

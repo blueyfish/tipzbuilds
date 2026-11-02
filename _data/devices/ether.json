@@ -1,0 +1,19 @@
+{
+  "device": "Nextbit Robin",
+  "codename": "ether",
+  "roms": [
+    {
+      "name": "LineageOS",
+      "builds": [
+        {
+          "version": "19.1",
+          "date": "2024-07-07",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Nextbit Robin/LineageOS 19.1/lineage-19.1-20240707-UNOFFICIAL-ether.zip",
+          "changelog_text": [
+            "Note: RIL & Torch is broken"
+          ]
+        }
+      ]
+    }
+  ]
+}

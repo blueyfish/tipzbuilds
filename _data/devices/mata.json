@@ -1,0 +1,75 @@
+{
+  "device": "Essential Phone",
+  "codename": "mata",
+  "roms": [
+    {
+      "name": "LineageOS",
+      "builds": [
+        {
+          "version": "22.0",
+          "date": "2024-12-16",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Essential Phone/LineageOS 22/lineage-22.0-20241216-UNOFFICIAL-mata.zip",
+          "changelog_text": [
+            "- Updated to Android 15 QPR1 (AP4A), security patch level 2024-12-05",
+            "- Applied 'Allow spoofing signingInfo for microG Companion/Services' (Gerrit)",
+            "- Applied pending LineageOS libperfmgr updates, catching up with Pixels (Gerrit)",
+            "- Updated NXP NFC firmware (Gerrit)",
+            "- Introduced work-in-progress reverse-engineered improveTouch HAL (GitHub)",
+            "Note: does not include Tomoms' optimizations; very much a pure experience"
+          ]
+        },
+        {
+          "version": "22.0",
+          "date": "2024-12-08",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Essential Phone/LineageOS 22/lineage-22.0-20241208-UNOFFICIAL-mata.zip",
+          "changelog_text": [
+            "- Another test build; please test with 360 camera if available",
+            "- Dropped seemingly unused libs again; could break things",
+            "- Includes new PDF Viewer and various app updates",
+            "- Security patch level still November 5, 2024"
+          ]
+        },
+        {
+          "version": "22.0",
+          "date": "2024-11-30",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Essential Phone/LineageOS 22/lineage-22.0-20241130-UNOFFICIAL-mata.zip",
+          "changelog_text": [
+            "- Includes upcoming Twelve music player and pending review changes",
+            "- Feedback requested on whether changes affect battery life",
+            "- Feedback requested on 360 camera performance",
+            "- Hotspot: if non-functional, toggle 'Extend Compatibility' modes",
+            "- VoLTE may cause crashes; disable temporarily if needed",
+            "- Notes also apply to oddsolutions.us builds"
+          ]
+        },
+        {
+          "version": "20.0",
+          "date": "2022-10-01",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Essential Phone/LineageOS 20/lineage-20.0-20221001-UNOFFICIAL-mata.zip",
+          "changelog_text": [
+            "- Optimised props",
+            "- Fixed log spam",
+            "- Applied temporary fix for download files in Jelly"
+          ]
+        },
+        {
+          "version": "20.0",
+          "date": "2022-09-30",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Essential Phone/LineageOS 20/lineage-20.0-20220930-UNOFFICIAL-mata.zip",
+          "changelog_text": [
+            "- Sync with latest LineageOS sources",
+            "- Fixed accessing the Internet"
+          ]
+        },
+        {
+          "version": "20.0",
+          "date": "2022-09-23",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Essential Phone/LineageOS 20/lineage-20.0-20220923-UNOFFICIAL-mata.zip",
+          "changelog_text": [
+            "Note: This build should really be considered a demo as accessing the Internet isn't possible yet, we will fix this asap."
+          ]
+        }
+      ]
+    }
+  ]
+}

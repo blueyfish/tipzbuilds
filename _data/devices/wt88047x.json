@@ -1,0 +1,103 @@
+{
+  "device": "Xiaomi Redmi 2",
+  "codename": "wt88047x",
+  "roms": [
+    {
+      "name": "LineageOS",
+      "builds": [
+        {
+          "version": "19.1",
+          "date": "2025-05-27",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Redmi 2/LineageOS 19.1/lineage-19.1-20250527-UNOFFICIAL-wt88047x.zip",
+          "changelog_text": [
+            "- Updated security patch level to 2025-05-05",
+            "- SELinux is now enforcing",
+            "- Fixed full disk encryption",
+            "- Enabled speed profile to reduce RAM usage"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2023-05-01",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Redmi 2/LineageOS 19.1/lineage-19.1-20230501-UNOFFICIAL-wt88047x.zip",
+          "changelog_text": [
+            "- Updated to April security patch",
+            "- Small performance bumps"
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2022-05-28",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Redmi 2/LineageOS 19.1/lineage-19.1-20220528-UNOFFICIAL-wt88047x.zip",
+          "changelog_text": [
+            "- Security Patch Level updated to May 2022",
+            "- Included all the new LineageOS 19.1 features",
+            "Note: Enforcing now boots but adb, camera, baseband, etc. no longer works with enforcing turned on. Builds are still shipped with permissive."
+          ]
+        },
+        {
+          "version": "19.1",
+          "date": "2022-03-23",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Redmi 2/LineageOS 19.1/lineage-19.1-20220323-UNOFFICIAL-wt88047x.zip",
+          "changelog_text": [
+            "- Android 12L!",
+            "Note: Enforcing now boots but adb, camera, baseband, etc. no longer works with enforcing turned on. Builds are still shipped with permissive."
+          ]
+        },
+        {
+          "version": "19.0",
+          "date": "2022-02-28",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Redmi 2/LineageOS 19.0/lineage-19.0-20220228-UNOFFICIAL-wt88047x.zip",
+          "changelog_text": [
+            "- Fixed TimeKeep (?)",
+            "Note: Enforcing now boots but adb, camera, baseband, etc. no longer works with enforcing turned on. Builds are still shipped with permissive."
+          ]
+        },
+        {
+          "version": "19.0",
+          "date": "2022-02-27",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Redmi 2/LineageOS 19.0/lineage-19.0-20220227-UNOFFICIAL-wt88047x.zip/download",
+          "changelog_text": [
+            "- Fixed Hotspot (Can be fixed for 18.1 too)",
+            "- Software navkeys now works properly",
+            "Note: Enforcing now boots but adb, camera, baseband, etc. no longer works with enforcing turned on. Builds are still shipped with permissive."
+          ]
+        },
+        {
+          "version": "19.0",
+          "date": "2022-02-19",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Redmi 2/LineageOS 19.0/lineage-19.0-20220219-UNOFFICIAL-wt88047x.zip",
+          "changelog_text": [
+            "- Fixed LiveDisplay",
+            "- Added SEPolicy Changes",
+            "- Added Binder and lmk kernel backports",
+            "Note: Enforcing now boots but adb, camera, baseband, etc. no longer works with enforcing turned on. Builds are still shipped with permissive."
+          ]
+        },
+        {
+          "version": "19.0",
+          "date": "2022-02-18",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Redmi 2/LineageOS 19.0/lineage-19.0-20220218-UNOFFICIAL-wt88047x.zip",
+          "changelog_text": [
+            "- Fixed Bluetooth",
+            "- Baseband and IMEI now detected"
+          ]
+        },
+        {
+          "version": "19.0",
+          "date": "2022-02-17",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Redmi 2/LineageOS 19.0/lineage-19.0-20220217-UNOFFICIAL-wt88047x.zip"
+        },
+        {
+          "version": "18.1",
+          "date": "2022-03-03",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Redmi 2/LineageOS 18.1/lineage-18.1-20220303-UNOFFICIAL-wt88047x.zip/download",
+          "changelog_text": [
+            "- Hotspot bug fixed",
+            "- Latest security patch level"
+          ]
+        }
+      ]
+    }
+  ]
+}

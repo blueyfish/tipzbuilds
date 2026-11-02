@@ -1,0 +1,16 @@
+{
+  "device": "Xiaomi Mi 3",
+  "codename": "cancro",
+  "roms": [
+    {
+      "name": "LineageOS",
+      "builds": [
+        {
+          "version": "18.1",
+          "date": "2022-07-30",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Mi 3/LineageOS 18.1/lineage-18.1-20220730-UNOFFICIAL-cancro.zip"
+        }
+      ]
+    }
+  ]
+}

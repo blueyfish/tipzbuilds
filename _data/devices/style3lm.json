@@ -1,0 +1,19 @@
+{
+  "device": "LG Style3",
+  "codename": "style3lm",
+  "roms": [
+    {
+      "name": "Firmware",
+      "builds": [
+        {
+          "version": "12",
+          "date": "2026-07-13",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/LG Style3/20260713",
+          "changelog_text": [
+            "- Updated firmware to Android 12 (L41A30e)"
+          ]
+        }
+      ]
+    }
+  ]
+}

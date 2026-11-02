@@ -1,0 +1,20 @@
+{
+  "device": "Samsung Galaxy W",
+  "codename": "ancora",
+  "roms": [
+    {
+      "name": "LineageOS",
+      "builds": [
+        {
+          "version": "11.0",
+          "date": "2022-03-20",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Samsung Galaxy W/LineageOS 11.0/lineage-11-20220320-UNOFFICIAL-ancora.zip/download",
+          "changelog_text": [
+            "- Kernel 3.4.113",
+            "- Latest LineageOS cm-11.0 branch changes"
+          ]
+        }
+      ]
+    }
+  ]
+}

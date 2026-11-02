@@ -1,0 +1,26 @@
+{
+  "device": "Xiaomi Mi 6",
+  "codename": "sagit",
+  "roms": [
+    {
+      "name": "LineageOS",
+      "builds": [
+        {
+          "version": "17.1",
+          "date": "2022-08-10",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Mi 6/LineageOS 17.1/lineage-17.1-20220810-UNOFFICIAL-sagit.zip"
+        },
+        {
+          "version": "14.1",
+          "date": "2022-08-07",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Mi 6/LineageOS 14.1/lineage-14.1-20220807-UNOFFICIAL-sagit.zip"
+        },
+        {
+          "version": "14.1",
+          "date": "2022-08-06",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Mi 6/LineageOS 14.1/lineage-14.1-20220806-UNOFFICIAL-sagit.zip"
+        }
+      ]
+    }
+  ]
+}

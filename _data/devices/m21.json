@@ -1,0 +1,16 @@
+{
+  "device": "Samsung Galaxy M21",
+  "codename": "m21",
+  "roms": [
+    {
+      "name": "LightningFastRom",
+      "builds": [
+        {
+          "version": "17.1",
+          "date": "2021-07-10",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Samsung Galaxy M21/LightningFastRom 17.1/lightning-17.1-20210710-UNOFFICIAL-m21-Sweetened-XDA-Build.zip"
+        }
+      ]
+    }
+  ]
+}

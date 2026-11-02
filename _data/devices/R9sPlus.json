@@ -1,0 +1,36 @@
+{
+  "device": "OPPO R9s Plus",
+  "codename": "R9sPlus",
+  "roms": [
+    {
+      "name": "LineageOS",
+      "builds": [
+        {
+          "version": "21",
+          "date": "2026-02-03",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9s Plus/LineageOS 21/20260203",
+          "changelog_text": [
+            "- Fixed headphones",
+            "- Enabled hardware support for more media codecs"
+          ]
+        },
+        {
+          "version": "21",
+          "date": "2026-01-29",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9s Plus/LineageOS 21/20260129",
+          "changelog_text": [
+            "Known bugs:",
+            "- Camera & Flashlight",
+            "- DT2W & Touchscreen Gestures",
+            "- Headphones",
+            "- WiFi broken on first boot",
+            "- Fingerprint & home button sometimes stops working",
+            "Notes:",
+            "- This build requires TWRP 3.7.1_12-Alpha2 or later to install",
+            "- Only tested on R9s Plus, experimental support for F3 Plus"
+          ]
+        }
+      ]
+    }
+  ]
+}
