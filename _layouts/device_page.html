@@ -97,7 +97,13 @@ layout: default
                     {% endif %}
                   </td>
                   <td style="vertical-align: top; text-align: center;">
-                    {% if build.download and build.download != "" %}
+                    {% if build.dead %}
+                      {% if build.download and build.download != "" %}
+                        <a href="{{ build.download }}" class="btn btn-primary" style="font-size: 0.8em; padding: 6px 12px; display: block; background-color: #dc3545; border-color: #dc3545; text-decoration: line-through; opacity: 0.85;">Dead link</a>
+                      {% else %}
+                        <span style="font-size: 0.8em; color: #dc3545; text-decoration: line-through;">Dead link</span>
+                      {% endif %}
+                    {% elsif build.download and build.download != "" %}
                       <a href="{{ build.download }}" class="btn btn-primary" style="font-size: 0.8em; padding: 6px 12px; display: block;">Download</a>
                     {% else %}
                       <span style="font-size: 0.8em; color: var(--text-muted, #888);">Unavailable</span>
