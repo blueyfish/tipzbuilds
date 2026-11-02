@@ -286,7 +286,7 @@
           "date": "2024-07-20",
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 19.1 (msm-4.9)/20240720",
           "changelog_text": [
-            "Kernel:",
+            "Kernel",
             "- Updated to Linux Kernel 4.9.337",
             "- Enabled eBPF",
             "- Improved performance and responsiveness",
@@ -294,7 +294,7 @@
             "- Fixed possible kernel panic related to WiFi usage",
             "- Switched to QTI Haptics",
             "- Fixed not showing \"Charging rapidly\" text on lockscreen",
-            "Userspace:",
+            "Userspace",
             "- Updated mixer paths to LA.UM.10.6.2.r1-02500-89xx.to",
             "- Shipped WiFi firmware to not depend on the /persist partition",
             "- Enabled support for LC3 codec",
@@ -320,7 +320,7 @@
             "- Fixed fingerprint sensor",
             "- Fixed FM Radio",
             "- Enabled 5V2A charging",
-            "Quirks:",
+            "Quirks",
             "- Empty IMEI",
             "- Camera (including Flashlight)",
             "- WiFi (MAC address)",
@@ -336,7 +336,7 @@
             "- Fixed mobile data for 2G/3G",
             "- Fixed calls for 2G/3G",
             "- Fixed charging issues with higher wattage chargers",
-            "Quirks:",
+            "Quirks",
             "- FM Radio is broken",
             "- Off-screen gestures work only intermediately",
             "- 4G does not work and will result in crashes"
@@ -349,7 +349,7 @@
           "changelog_text": [
             "- Fixed modem fatal errors and SoC restart (again)",
             "- Fixed 2G/3G calls",
-            "Quirks:",
+            "Quirks",
             "- FM Radio is broken",
             "- Off-screen gestures work only intermediately",
             "- 4G and data connection does not work and will result in crashes",
@@ -363,7 +363,7 @@
           "changelog_text": [
             "- Fixed modem fatal errors and SoC restart",
             "- Fixed application pinner config",
-            "Quirks:",
+            "Quirks",
             "- FM Radio is broken",
             "- Off-screen gestures work only intermediately"
           ]
@@ -378,7 +378,7 @@
             "- Fixed connecting to WPA3 WiFi",
             "- Fixed perfd not applying optimizations",
             "- Improved boot & shutdown times",
-            "Quirks:",
+            "Quirks",
             "- FM Radio is broken",
             "- Off-screen gestures work only intermediately"
           ]

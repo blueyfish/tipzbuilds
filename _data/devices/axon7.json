@@ -11,9 +11,9 @@
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/ZTE Axon 7/LineageOS 18.1/20261101/lineage-18.1-20261101-UNOFFICIAL-axon7.zip",
           "changelog_text": [
             "- Improve overall performance",
-            "- Enable RCU_NOCB",
-            "- Enable sched HMP C-state aware support",
-            "- Drop input boost support"
+            "  - Enable RCU_NOCB",
+            "  - Enable sched HMP C-state aware support",
+            "  - Drop input boost support"
           ]
         },
         {

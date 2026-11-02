@@ -30,7 +30,7 @@
           "changelog_text": [
             "- Fixed Always-on-Display",
             "- Improve speed of starting radio",
-            "Known bugs:",
+            "Known bugs",
             "- Rear camera (above 5MP)",
             "- Touchscreen gestures (R9sk)"
           ]
@@ -45,7 +45,7 @@
             "- Added global version of rmt_storage for specific variants",
             "- Increased usable battery capacity",
             "- General kernel updates",
-            "Known bugs:",
+            "Known bugs",
             "- Rear camera (above 5MP)",
             "- Always-on Display (R9s)",
             "- Touchscreen gestures (R9sk)"
@@ -71,8 +71,9 @@
           "changelog_text": [
             "- Updated to 2025-12-01 security patch",
             "- Force enabled some IMS features (for VoLTE)",
-            "- Partially fixed camera (Front camera & Flashlight working, Rear camera only works at low resolution below 5MP)",
-            "- Includes fixes from OPPO A57",
+            "  - Partially fixed camera (Front camera & Flashlight working",
+            "  - Rear camera only works at low resolution below 5MP)",
+            "  - Includes fixes from OPPO A57",
             "- Improved battery capacity & charging",
             "- Fixed touchscreen gesture issue when dt2w is disabled",
             "- Added Glove Mode support (excl. R9sk)",
@@ -100,7 +101,7 @@
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9s/LineageOS 21/20250714",
           "changelog_text": [
             "Android security patch: 2025-06-05",
-            "Known issues:",
+            "Known issues",
             "- Camera not working",
             "- No IMEI (null)",
             "- Updated GPS drivers",
@@ -117,7 +118,7 @@
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9s/LineageOS 21/20250713",
           "changelog_text": [
             "Android security patch: 2025-06-05",
-            "Known issues:",
+            "Known issues",
             "- Camera not working",
             "- No IMEI (null)",
             "- Touchscreen Gestures does not function",
@@ -133,7 +134,7 @@
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9s/LineageOS 21/20250708",
           "changelog_text": [
             "Android security patch: 2025-06-05",
-            "Known issues:",
+            "Known issues",
             "- No audio (speaker & headphones)",
             "- Camera not working",
             "- No IMEI (null)",

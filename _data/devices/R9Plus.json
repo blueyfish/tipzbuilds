@@ -40,11 +40,11 @@
           "date": "2026-02-13",
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9 Plus/LineageOS 21/20260213",
           "changelog_text": [
-            "Known bugs:",
+            "Known bugs",
             "- Rear camera & Flashlight",
             "- Audio Playback when watching videos",
             "- Always-on Display",
-            "Notes:",
+            "Notes",
             "- Use TWRP 3.7.1_12-Alpha4 to flash",
             "- Flashing GSIs will not work due to squashfs system",
             "- Use alternative methods to flash GMS"
