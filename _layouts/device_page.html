@@ -5,62 +5,64 @@ layout: default
 {% assign device_id = page.url | split: '/' | last | split: '.html' | first %}
 {% assign device_data = site.data.devices[device_id] %}
 
-{% if device_data == nil %}
-  {% comment %} Fallback: check if there is a JSON file in _data/devices/ with the same name as the page {% endcomment %}
-  {% assign device_data = site.data.devices[device_id] %}
-{% endif %}
-
 {% assign device_name = device_data.device | default: "Device" %}
 <h1 style="margin-bottom: 20px;">{{ device_name }} Releases</h1>
 
 <div class="rom-container">
-  <table class="rom-table">
-    <thead>
-      <tr>
-        <th>Version</th>
-        <th>Date</th>
-        <th>Changelog</th>
-        <th>Download</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for rom in device_data.roms %}
-        <tr>
-          <td><strong>{{ rom.version }}</strong></td>
-          <td>{{ rom.date }}</td>
-          <td>
-            {% if rom.changelog_text %}
-              <details>
-                <summary class="btn-secondary" style="padding: 2px 8px; font-size: 0.8em;">View Changes</summary>
-                <div class="changelog-content" style="margin: 10px 0; padding: 10px; background: var(--accent-color); border-radius: 4px; font-size: 0.9em; text-align: left;">
-                  {% for line in rom.changelog_text %}
-                    {% assign stripped_line = line | strip %}
-                    {% if stripped_line != "" %}
-                      {% if stripped_line contains "-" or stripped_line contains "*" %}
-                        <div style="margin-left: 20px; display: flex; align-items: flex-start; margin-bottom: 4px;">
-                          <span style="margin-right: 8px;">•</span>
-                          <span>{{ stripped_line | remove: "- " | remove: "* " }}</span>
-                        </div>
-                      {% else %}
-                        <strong style="display: block; margin-top: 12px; margin-bottom: 6px; color: var(--primary-color);">{{ stripped_line }}</strong>
-                      {% endif %}
-                    {% endif %}
-                  {% endfor %}
-                </div>
-              </details>
-            {% elsif rom.changelog or rom.changelog_url %}
-              <a href="{{ rom.changelog | default: rom.changelog_url }}" class="external-link">View External &rarr;</a>
-            {% else %}
-              No changelog
-            {% endif %}
-          </td>
-          <td>
-            <a href="{{ rom.download }}" class="btn btn-primary">Download</a>
-          </td>
-        </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+  {% assign rom_names = device_data.roms | map: "name" | uniq %}
+  {% for rom_name in rom_names %}
+    <div class="rom-group" style="margin-bottom: 40px; text-align: left;">
+      <h2 style="color: var(--primary-color); border-bottom: 2px solid var(--accent-color); padding-bottom: 10px; margin-bottom: 15px; text-align: left; width: 100%; max-width: 800px; margin-left: auto; margin-right: auto;">{{ rom_name }}</h2>
+      <table class="rom-table">
+        <thead>
+          <tr>
+            <th>Version</th>
+            <th>Date</th>
+            <th>Changelog</th>
+            <th>Download</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% assign filtered_roms = device_data.roms | where_exp: "item", "item.name == rom_name" %}
+          {% for rom in filtered_roms %}
+            <tr>
+              <td><strong>{{ rom.version }}</strong></td>
+              <td>{{ rom.date }}</td>
+              <td>
+                {% if rom.changelog_text %}
+                  <details>
+                    <summary class="btn-secondary" style="padding: 2px 8px; font-size: 0.8em;">View Changes</summary>
+                    <div class="changelog-content" style="margin: 10px 0; padding: 10px; background: var(--accent-color); border-radius: 4px; font-size: 0.9em; text-align: left;">
+                      {% for line in rom.changelog_text %}
+                        {% assign stripped_line = line | strip %}
+                        {% if stripped_line != "" %}
+                          {% if stripped_line contains "-" or stripped_line contains "*" %}
+                            <div style="margin-left: 20px; display: flex; align-items: flex-start; margin-bottom: 4px;">
+                              <span style="margin-right: 8px;">•</span>
+                              <span>{{ stripped_line | remove: "- " | remove: "* " }}</span>
+                            </div>
+                          {% else %}
+                            <strong style="display: block; margin-top: 12px; margin-bottom: 6px; color: var(--primary-color);">{{ stripped_line }}</strong>
+                          {% endif %}
+                        {% endif %}
+                      {% endfor %}
+                    </div>
+                  </details>
+                {% elsif rom.changelog or rom.changelog_url %}
+                  <a href="{{ rom.changelog | default: rom.changelog_url }}" class="external-link">View External &rarr;</a>
+                {% else %}
+                  No changelog
+                {% endif %}
+              </td>
+              <td>
+                <a href="{{ rom.download }}" class="btn btn-primary">Download</a>
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% endfor %}
 </div>
 
 <p style="margin-top: 30px;"><a href="/" class="btn-secondary">&larr; Back to Home</a></p>
