@@ -55,6 +55,11 @@
         },
         {
           "version": "17.1",
+          "date": "2022-04-20",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 10/LineageOS 17.1/lineage-17.1-20211001-UNOFFICIAL-phoenix.zip"
+        },
+        {
+          "version": "17.1",
           "date": "2022-03-17",
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 10/LineageOS 17.1/lineage-17.1-20220317-UNOFFICIAL-phoenix.zip",
           "changelog_text": [
@@ -67,6 +72,20 @@
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 10/LineageOS 17.1/lineage-17.1-20220305-UNOFFICIAL-phoenix.zip",
           "changelog_text": [
             "- Latest security patches"
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2021-08-19",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 10/LineageOS 17.1/lineage-17.1-20210819-UNOFFICIAL-phoenix.zip"
+        },
+        {
+          "version": "17.1",
+          "date": "2021-08-18",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 10/LineageOS 17.1/lineage-17.1-20210818-UNOFFICIAL-phoenix.zip",
+          "changelog_text": [
+            "- Rewrite kernel DTS",
+            "- Update pinner config"
           ]
         },
         {
@@ -91,60 +110,280 @@
         },
         {
           "version": "17.1",
+          "date": "2021-08-12",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 10/LineageOS 17.1/lineage-17.1-20210812-UNOFFICIAL-phoenix.zip"
+        },
+        {
+          "version": "17.1",
+          "date": "2021-07-28",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 10/LineageOS 17.1/lineage-17.1-20210728-UNOFFICIAL-phoenix.zip",
+          "changelog_text": [
+            "- Fixed the flickering on boot up",
+            "- Improved performance"
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2021-07-27",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 10/LineageOS 17.1/lineage-17.1-20210727-UNOFFICIAL-phoenix.zip"
+        },
+        {
+          "version": "17.1",
+          "date": "2021-07-24",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 10/LineageOS 17.1/lineage-17.1-20210724-UNOFFICIAL-phoenix.zip"
+        },
+        {
+          "version": "17.1",
+          "date": "2021-07-22",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 10/LineageOS 17.1/lineage-17.1-20210721-UNOFFICIAL-phoenix.zip"
+        },
+        {
+          "version": "17.1",
+          "date": "2021-07-22",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 10/LineageOS 17.1/lineage-17.1-20210719-UNOFFICIAL-phoenix.zip",
+          "changelog_text": [
+            "Note: The display flickers on bootup, but if you lock it and wait for 5-10 seconds after bootup, it will be fine."
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2021-07-22",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 10/LineageOS 17.1/lineage-17.1-20210718-UNOFFICIAL-phoenix.zip"
+        },
+        {
+          "version": "16.0",
           "date": "2020-08-10",
-          "download": "https://androidfilehost.com/?fid=8889791610682912398",
+          "download": "https://www.androidfilehost.com/?fid=8889791610682912398",
           "changelog_text": [
-            "- Kernel CVE fixes etc."
+            "Kernel",
+            "- Fixed CVE-2019-19524, CVE-2020-8647 and CVE-2019-20636 (from OnePlusOSS/android_kernel_oneplus_sm8250)",
+            "- Overclocked to 1.61 GHz for big cores, 1.21GHz for little cores and 700MHz for GPU (from AndyPhoenix9879/SkyMelon-msm8939)",
+            "- Added option for down to 40MHz for big cores, 55Mhz for little cores and 19MHz for GPU (from AndyPhoenix9879/SkyMelon-msm8939)",
+            "- Added msm thermal for better thermal (from itexpert120/android_kernel_samsung_msm8916)",
+            "- Added mako hotplug (from Ahmed-Hady/MOT-SHADOW-KERNEL)",
+            "- supressed excessive logging (from AndyPhoenix9879/SkyMelon-msm8939)",
+            "- Enabled aggressive multi-core power savings",
+            "- Add intelli thermal (from itexpert120/android_kernel_samsung_msm8916)",
+            "- Other kernel improvements (https://github.com/LenovoPhabPlus/android_kernel_lenovo_PB1770M/commits/lineage-16.0 for more information)",
+            "Device",
+            "- Completely fix thermal-engine",
+            "- Made the device aware there are 2 cameras (from stock and MOTO-M8916/device_motorola_msm8916-common, thanks to althafvly@github)",
+            "- Completely fix video playback and media codec issues (from MoKee/android_device_xiaomi_ido)",
+            "- Fix MAC read for Bluetooth and WiFi (for WiFi not too sure, but now does display something)",
+            "- Optimizations (thanks to itexpert120@github)",
+            "- Fix Netflix",
+            "- Added stock ROM nv bins",
+            "Vendor",
+            "- Broke detection of dual SIM (will fix later)",
+            "- Imported blobs from kipper, Z010D and stock ROM",
+            "- Fix MAC read for Bluetooth and WiFi (for WiFi not too sure, but now does display something)",
+            "- Fix bluetooth connection issues",
+            "- Add nv_read from stock ROM",
+            "- Made the device aware there are 2 cameras (from stock and some from Z010D)"
           ]
         },
         {
-          "version": "17.1",
+          "version": "16.0",
           "date": "2020-08-04",
+          "download": "https://www.androidfilehost.com/?fid=8889791610682906289",
+          "dead": true,
           "changelog_text": [
-            "- Fixed LEDs etc."
+            "- Fixed LEDs (from Lollipop OSC, thx to sheikhshahnawaz41299)",
+            "- Added a very cool lights had (from LineageOS/android_device_moto_shamu)",
+            "- Fixed few sensors (Proximity and Magnetometer) (from LineageOS/android_device_oppo_msm8939-common)",
+            "- Imported a GPS sec_config (from stock ROM)",
+            "- Thermal Improvments (from acroreiser/android_device_lenovo_a6010)",
+            "- WiFi fixes (from acroreiser/android_device_lenovo_a6010)",
+            "- Removed useless camera blobs",
+            "- Re-added vendor camera and sensors blobs (from stock ROM)",
+            "- Re-added sensor _hals.conf (from ferrari-dev/android_device_xiaomi_ferrari)",
+            "- Added custom audio_effects.xml (from acroreiser/android_device_lenovo_a6010)",
+            "- Revert back to old audio_platform_info.xml (from old commits)",
+            "- Mixer paths audio tuning (from acroreiser/android_device_lenovo_a6010)",
+            "- media codecs changes (from acroreiser/android_device_lenovo_a6010)"
           ]
         },
         {
-          "version": "17.1",
+          "version": "16.0",
           "date": "2020-08-02",
+          "download": "https://www.androidfilehost.com/?fid=8889791610682904745",
+          "dead": true,
           "changelog_text": [
-            "- Fix Audio! (Speaker) etc."
+            "- Fix Audio! (Speaker)",
+            "- Slight Performance Increase",
+            "- Sync lineage source",
+            "- Replaced to our media codec to try and help video playback",
+            "- This version uses less heat",
+            "- Add latest CAF tag changes"
           ]
         },
         {
-          "version": "17.1",
+          "version": "16.0",
           "date": "2020-07-21",
+          "download": "https://www.androidfilehost.com/?fid=8889791610682896829",
+          "dead": true,
           "changelog_text": [
-            "- Performance optimizations etc."
+            "Performance",
+            "- Performance optimizations",
+            "- Add Dexpreopt for application optimization",
+            "Kernel",
+            "- Fixed High-Load Average due to Drivers",
+            "- Reduced CPU Load-Average",
+            "- fix the deadlock in xt_qtaguid when enable DDEBUG",
+            "- net: ipv6: make \"ip -6 route get mark xyz\" work.",
+            "- net: ipv6: Add DEVCONF_DROP_UNICAST_IN_L2_MULTICAST to enum",
+            "- ipv6: add option to drop unicast encapsulated in L2 multicast",
+            "- ipv4: expose IPV4_DEVCONF",
+            "- cfg80211: size various nl80211 messages correctly",
+            "- ARM: wire up memfd_create syscall",
+            "Security Patch",
+            "- Added Vendor Security Patch Date of 2016-02-01",
+            "- Synced LineageOS Security Patch",
+            "WiFi",
+            "- Improved WiFi",
+            "Bluetooth",
+            "- Bluetooth Improvements",
+            "Power",
+            "- Power Improvements"
           ]
         },
         {
-          "version": "17.1",
+          "version": "16.0",
           "date": "2020-07-19",
+          "download": "https://www.androidfilehost.com/?fid=8889791610682895048",
+          "dead": true,
           "changelog_text": [
-            "Kernel: various backports"
+            "Kernel",
+            "- workqueue: Schedule workers on CPU0 or CPU0/CPU1 by default",
+            "- usb: dwc3-msm: Remove indefinite wakeup ...",
+            "- mm: kmemleak: Don't die when memory allocation fails",
+            "- dmaengine: Fix memory leak in dma_async_device_register",
+            "- qos: Don't allow userspace to impose restrictions on CPU idle levels",
+            "- usb: kill \"Error: returning -512 value\" in log when system suspend",
+            "- compat_qcedev: Fix accessing userspace memory in kernel space",
+            "- mmc: sd: Error out on bus speed switch failure",
+            "- mm: page_alloc: use word-based accesses for get/set pageblock bitmaps",
+            "- mmc: core: Use mmc_flush_cache() during mmc suspend",
+            "- spi: spi_qsd: Modify the FIFO mode read/writes",
+            "- Input: optimize events_per_packet count calculation",
+            "- serial: msm_serial_hs: Change the wakeup interrupt enable sequence",
+            "- arm/arm64: smp: Prevent reschedule on offline CPU",
+            "- msm: mdss: Increase fbmem buf ref count before use",
+            "- Turn off trace_printk in vidc's dprink.",
+            "- scripts: Fix install_headers.sh permissions",
+            "- ASoC: wm_adsp: Avoid attempt to free buffers that might still be in",
+            "- staging: android: ashmem: Disallow ashmem memory from being remapped",
+            "- Bluetooth: Verify that l2cap_get_conf_opt provides large enough buffer",
+            "- [BACKPORT]Bluetooth: Align minimum encryption key size for LE and BR/...",
+            "- bluetooth: hci_conn: fix LE connections when size is exactly 56 bits",
+            "- wlan: Avoid releasing mutex for un-acquired tdls lock",
+            "- msm8929/8939v3: Set GPU idle timeout to 64 ms",
+            "- crypto: Enable -O3 and cortex a53 optimizations",
+            "- Optimized Integer SQRT. for upto 3x faster operation",
+            "- workqueue: allow rescuer thread to do more work.",
+            "- workqueue: clear POOL_DISASSOCIATED in rebind_workers()",
+            "- bam_dmux: attempt to reduce wakelock"
           ]
         },
         {
-          "version": "17.1",
+          "version": "16.0",
           "date": "2020-07-15",
+          "download": "https://www.androidfilehost.com/?fid=8889791610682893029",
+          "dead": true,
           "changelog_text": [
-            "- Fixed a few lag issues etc."
+            "- Fixed a few lag issues",
+            "- Made system generate lass heat",
+            "- Made IMEI disappear (will fix later)",
+            "- Imported camera blobs",
+            "- Imported some init.qcom stuff"
           ]
         },
         {
-          "version": "17.1",
+          "version": "16.0",
           "date": "2020-07-14",
+          "download": "https://www.androidfilehost.com/?fid=8889791610682892292",
+          "dead": true,
           "changelog_text": [
             "- Fix vm_bms (charging issues)"
           ]
         },
         {
-          "version": "17.1",
+          "version": "16.0",
           "date": "2020-07-12",
+          "download": "https://www.androidfilehost.com/?fid=8889791610682891171",
+          "dead": true,
           "changelog_text": [
-            "- First source compile etc."
+            "Kernel",
+            "- Include all old kernel updates",
+            "- kgsl/drm: Featurize genlock support",
+            "- msm8939: Undervolt CPU even more",
+            "ROM",
+            "- First source compile",
+            "- Imported audio policies",
+            "- Updated to PQ3A.190801.002",
+            "- Security patch updated to June 5, 2020",
+            "- WiFi MAC can now be read correctly",
+            "- Bluetooth device name renamed",
+            "Misc stuff",
+            "- Gapps tested and working"
           ]
+        },
+        {
+          "version": "16.0",
+          "date": "2020-07-11"
+        },
+        {
+          "version": "16.0",
+          "date": "2020-07-08"
+        },
+        {
+          "version": "16.0",
+          "date": "2020-07-05"
+        },
+        {
+          "version": "16.0",
+          "date": "2020-07-04"
+        },
+        {
+          "version": "16.0",
+          "date": "2020-07-03"
+        },
+        {
+          "version": "16.0",
+          "date": "2020-06-30"
+        },
+        {
+          "version": "16.0",
+          "date": "2020-06-29"
+        },
+        {
+          "version": "16.0",
+          "date": "2020-06-02"
+        },
+        {
+          "version": "16.0",
+          "date": "2020-05-31"
+        },
+        {
+          "version": "16.0",
+          "date": "2020-05-29"
+        },
+        {
+          "version": "16.0",
+          "date": "2020-05-28"
+        },
+        {
+          "version": "16.0",
+          "date": "2020-05-27",
+          "download": "https://androidfilehost.com/?fid=4349826312261819628",
+          "changelog_text": [
+            "Note: Buggy port, not recommended."
+          ]
+        },
+        {
+          "version": "12.1",
+          "date": "2020-10-04",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 5.x/LineageOS 12.1/lineage-12.1-20201004-UNOFFICIAL-PB1770M.zip"
         }
       ]
     },
@@ -154,12 +393,236 @@
         {
           "version": "12.1",
           "date": "2021-04-25",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/CyanogenMod 12.1/cm-12.1-20210425-UNOFFICIAL-phoenix.zip"
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 5.x/CyanogenMod 12.1//cm-12.1-20210425-UNOFFICIAL-phoenix.zip",
+          "changelog_text": [
+            "- Fixed Accelerometer, which also fixes Auto Rotate",
+            "- Fixed LEDs",
+            "- Fixed USB OTG",
+            "- Cleaned up rootdir, fstab, USB config, and sepolicy"
+          ]
+        },
+        {
+          "version": "12.1",
+          "date": "2021-04-24",
+          "changelog_text": [
+            "- Nothing has been changed."
+          ],
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 5.x/CyanogenMod 12.1/cm-12.1-20210424-UNOFFICIAL-phoenix.zip"
         },
         {
           "version": "12.1",
           "date": "2021-03-21",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/CyanogenMod 12.1/cm-12.1-20210321-UNOFFICIAL-phoenix.zip"
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/CyanogenMod 12.1/cm-12.1-20210321-UNOFFICIAL-phoenix.zip",
+          "dead": true,
+          "changelog_text": [
+            "- Fixed WLAN MAC address (Removed a kernel commit)",
+            "- Updated Kernel and WCNSS prima to LA.BR.1.1.3_rb1.54",
+            "- Fixed USB ID"
+          ]
+        },
+        {
+          "version": "12.1",
+          "date": "2021-02-10",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/CyanogenMod 12.1/cm-12.1-20210210-UNOFFICIAL-phoenix.zip",
+          "dead": true,
+          "changelog_text": [
+            "- Initial build"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AICP",
+      "builds": [
+        {
+          "version": "14.0 (Pie)",
+          "date": "2020-05-29",
+          "download": "https://androidfilehost.com/?fid=4349826312261821318"
+        }
+      ]
+    },
+    {
+      "name": "AOSPA-L",
+      "builds": [
+        {
+          "version": "5.1",
+          "date": "2020-04-23",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261779403",
+          "dead": true
+        }
+      ]
+    },
+    {
+      "name": "BootleggersROM",
+      "builds": [
+        {
+          "version": "4.0 (Pie)",
+          "date": "2020-05-29",
+          "download": "https://androidfilehost.com/?fid=4349826312261821314"
+        }
+      ]
+    },
+    {
+      "name": "HavocOS",
+      "builds": [
+        {
+          "version": "2.9 (Pie)",
+          "date": "2020-06-25",
+          "download": "https://www.androidfilehost.com/?fid=8889791610682877596",
+          "changelog_text": [
+            "- New kernel",
+            "- Improving lag",
+            "- Fixed WiFi range issues again"
+          ]
+        },
+        {
+          "version": "2.9 (Pie)",
+          "date": "2020-06-13",
+          "changelog_text": [
+            "- New kernel",
+            "- Rebased",
+            "- Fixed WiFi short range issues"
+          ]
+        },
+        {
+          "version": "2.9 (Pie)",
+          "date": "2020-05-28",
+          "changelog_text": [
+            "- Initial Release"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Infinitive-OS",
+      "builds": [
+        {
+          "version": "1.2 (Lollipop)",
+          "date": "2020-04-26",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261782149"
+        }
+      ]
+    },
+    {
+      "name": "MIUI",
+      "builds": [
+        {
+          "version": "8",
+          "date": "2020-04-15",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261771585",
+          "changelog_text": [
+            "- Initial release"
+          ]
+        },
+        {
+          "version": "7.5",
+          "date": "2020-04-12",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261768578",
+          "changelog_text": [
+            "- Merged Short Range WiFi Patch",
+            "- Fixed Sensors",
+            "- Tried to fix Camera (Failed)"
+          ]
+        },
+        {
+          "version": "7.5",
+          "date": "2020-04-07~patch1",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261763866",
+          "dead": true,
+          "changelog_text": [
+            "- Fixed Short Range WiFi",
+            "Use 20200406b as base"
+          ]
+        },
+        {
+          "version": "7.5",
+          "date": "2020-04-06b",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261763116",
+          "dead": true,
+          "changelog_text": [
+            "- Fixed WiFi",
+            "- Made it a single package",
+            "New bugs",
+            "- Short range WiFi"
+          ]
+        },
+        {
+          "version": "7.5",
+          "date": "2020-04-06a",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261763034",
+          "dead": true,
+          "changelog_text": [
+            "- Changed the kernel to stock 5.0.2",
+            "- Fixed Bluetooth",
+            "- Kinda fixed charging issues",
+            "Use 20200405 as base"
+          ]
+        },
+        {
+          "version": "7.5",
+          "date": "2020-04-05",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261762399",
+          "dead": true,
+          "changelog_text": [
+            "- Debloated the ROM",
+            "- Set DPI to 320",
+            "- Changed device name to \"Lenovo Phab Plus\"",
+            "- Changed manufacturer to \"Lenovo\"",
+            "- Tried to fix WiFi (didn't work)"
+          ]
+        },
+        {
+          "version": "7.5",
+          "date": "2020-04-04",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261762066",
+          "changelog_text": [
+            "- Initial Release"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MoKee",
+      "builds": [
+        {
+          "version": "12.1 (Lollipop)",
+          "date": "2020-04-16",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261773589",
+          "dead": true
+        }
+      ]
+    },
+    {
+      "name": "Nubia ROM",
+      "builds": [
+        {
+          "version": "5.1.1",
+          "date": "2020-05-30",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261821939"
+        }
+      ]
+    },
+    {
+      "name": "Team-Radium",
+      "builds": [
+        {
+          "version": "1.5 (Lollipop)",
+          "date": "2020-04-26",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261782015",
+          "dead": true,
+          "changelog_text": [
+            "- Ported"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "XenonHD",
+      "builds": [
+        {
+          "version": "9.0",
+          "date": "2020-09-09",
+          "download": "https://androidfilehost.com/?fid=8889791610682933295"
         }
       ]
     }
