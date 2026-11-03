@@ -6,6 +6,13 @@
       "name": "LineageOS",
       "builds": [
         {
+          "version": "20",
+          "date": "2023-08-13",
+          "changelog_text": [
+            "Note: Internal test build originally. Bootup takes up to 10 minutes, needs to wait for entropy."
+          ]
+        },
+        {
           "version": "19.1",
           "date": "2023-07-14",
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 12/LineageOS 19.1/lineage-19.1-20230714-UNOFFICIAL-phoenix.zip",
