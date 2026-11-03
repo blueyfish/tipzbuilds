@@ -3,8 +3,8 @@ layout: default
 title: Home
 ---
 
-<details style="margin-bottom: 20px; text-align: left;">
-  <summary>Builds by month</summary>
+<details style="margin-bottom: 20px; text-align: left; background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px; padding: 10px 14px;">
+  <summary style="cursor: pointer; font-weight: 700; color: var(--primary-color); font-size: 1.05rem; list-style: none;">Builds by month</summary>
   <button type="button" id="chart-toggle" style="margin-bottom: 10px;">Show cumulative totals</button>
   <div id="build-month-chart"></div>
 </details>
@@ -177,6 +177,32 @@ if (toggle) {
 {% endfor %}
 
 <p style="text-align: center; margin-bottom: 20px; font-size: 1.1rem;">Total builds tracked: <strong>{{ total_builds }}</strong></p>
+
+<h2 style="margin-top: 30px;">Latest 5 Builds</h2>
+{% assign latest_list = "" %}
+{% for device in site.data.devices_list %}
+  {% assign latest_device_data = site.data.devices[device.codename] %}
+  {% for rom in latest_device_data.roms %}
+    {% for build in rom.builds %}
+      {% if build.date %}
+        {% assign latest_list = latest_list | append: build.date | append: "|" | append: device.device | append: "|" | append: device.codename | append: "|" | append: rom.name | append: "|" | append: build.version | append: "|" | append: build.download | append: "@@" %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
+{% assign latest_items = latest_list | split: "@@" | sort | reverse %}
+<ul style="list-style: none; text-align: left; max-width: 840px; margin: 0 auto 30px; padding: 0;">
+  {% for item in latest_items limit:5 %}
+    {% if item != "" %}
+      {% assign parts = item | split: "|" %}
+      <li style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; padding: 12px 0; border-bottom: 1px solid var(--border-color);">
+        <span style="font-weight: 700; color: var(--primary-color); min-width: 96px;">{{ parts[0] }}</span>
+        <a href="{{ '/devices/' | append: parts[2] | relative_url }}" style="font-weight: 700; font-size: 1.05em; color: var(--primary-color); text-decoration: none;">{{ parts[1] }}</a>
+        <span style="color: var(--text-color);">{{ parts[3] }} {{ parts[4] }}</span>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
 <div class="device-grid">
   {% assign sorted_devices = site.data.devices_list | sort: "device" %}
