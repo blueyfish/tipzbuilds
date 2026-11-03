@@ -151,6 +151,30 @@
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 10/LineageOS 17.1/lineage-17.1-20210718-UNOFFICIAL-phoenix.zip"
         },
         {
+          "version": "17.1",
+          "date": "2020-09-26",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/old_archive/lineage-17.1-20200926-UNOFFICIAL-PB1770M.zip",
+          "dead": true
+        },
+        {
+          "version": "17.1",
+          "date": "2020-09-25",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/old_archive/lineage-17.1-20200925-UNOFFICIAL-PB1770M.zip",
+          "dead": true
+        },
+        {
+          "version": "16.0",
+          "date": "2020-08-23",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/old_archive/lineage-16.0-20200823-UNOFFICIAL-PB1770M.zip",
+          "dead": true
+        },
+        {
+          "version": "16.0",
+          "date": "2020-08-20",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/old_archive/lineage-16.0-20200820-UNOFFICIAL-PB1770M.zip",
+          "dead": true
+        },
+        {
           "version": "16.0",
           "date": "2020-08-10",
           "download": "https://www.androidfilehost.com/?fid=8889791610682912398",
@@ -381,9 +405,27 @@
           ]
         },
         {
+          "version": "15.1",
+          "date": "2020-08-19",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/old_archive/lineage-15.1-20200819-UNOFFICIAL-PB1770M.zip",
+          "dead": true
+        },
+        {
+          "version": "13.0",
+          "date": "2017-04-10",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/old_archive/lineage-13.0-20170410-UNOFFICIAL-phoenix.zip",
+          "dead": true
+        },
+        {
           "version": "12.1",
           "date": "2020-10-04",
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/Android 5.x/LineageOS 12.1/lineage-12.1-20201004-UNOFFICIAL-PB1770M.zip"
+        },
+        {
+          "version": "12.1",
+          "date": "2020-10-04",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/old_archive/lineage-12.1-20201004-UNOFFICIAL-PB1770M.zip",
+          "dead": true
         }
       ]
     },
@@ -471,6 +513,34 @@
           "version": "4.0 (Pie)",
           "date": "2020-05-29",
           "download": "https://androidfilehost.com/?fid=4349826312261821314"
+        },
+        {
+          "version": "4.0",
+          "date": "2020-05-29",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/old_archive/BootleggersROM-Pie4PB1770M-4.0-Stable-Unshishufied-20200529.zip",
+          "dead": true
+        }
+      ]
+    },
+    {
+      "name": "Fluid",
+      "builds": [
+        {
+          "version": "1.0",
+          "date": "2020-09-27",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/old_archive/Fluid-1.0-Rum-UNOFFICIAL-PB1770M-20200927.zip",
+          "dead": true
+        }
+      ]
+    },
+    {
+      "name": "Fusion OS",
+      "builds": [
+        {
+          "version": "1.2",
+          "date": "2020-10-14 11:30",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/old_archive/Fusion-OS-1.2-Krypton_PB1770M-10.0-20201014-1130-UNOFFICIAL.zip",
+          "dead": true
         }
       ]
     },
@@ -502,6 +572,12 @@
           "changelog_text": [
             "- Initial Release"
           ]
+        },
+        {
+          "version": "2.9",
+          "date": "2020-06-25",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/old_archive/Havoc-OS-v2.9-20200625-PB1770M-Unofficial.zip",
+          "dead": true
         }
       ]
     },
@@ -611,6 +687,23 @@
           "version": "5.1.1",
           "date": "2020-05-30",
           "download": "https://www.androidfilehost.com/?fid=4349826312261821939"
+        }
+      ]
+    },
+    {
+      "name": "PixelExperience",
+      "builds": [
+        {
+          "version": "10.0",
+          "date": "2020-10-10 06:22",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/old_archive/PixelExperience_PB1770M-10.0-20201010-0622-UNOFFICIAL.zip",
+          "dead": true
+        },
+        {
+          "version": "10.0",
+          "date": "2020-10-10 08:18",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Lenovo PHAB Plus/old_archive/PixelExperience_PB1770M-10.0-20201010-0818-UNOFFICIAL.zip",
+          "dead": true
         }
       ]
     },

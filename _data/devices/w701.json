@@ -1,0 +1,19 @@
+{
+  "device": "Qihoo 360 6S",
+  "codename": "w701",
+  "roms": [
+    {
+      "name": "LineageOS",
+      "builds": [
+        {
+          "version": "7.1.2",
+          "date": "2022-04-28",
+          "changelog_text": [
+            "- Build fingerprint: qcom/lineage_w701/w701:7.1.2/NJH47F/4a105daa2a:userdebug/test-keys",
+            "- No build available"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -465,6 +465,18 @@
           ]
         }
       ]
+    },
+    {
+      "name": "CyanogenMod",
+      "builds": [
+        {
+          "version": "13.0",
+          "date": "2021-10-02",
+          "changelog_text": [
+            "- Unreleased build"
+          ]
+        }
+      ]
     }
   ]
 }

@@ -249,6 +249,26 @@
       ]
     },
     {
+      "name": "PixelExperience",
+      "builds": [
+        {
+          "version": "11.0",
+          "date": "2022-08-04",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/PixelExperience/20220804/PixelExperience_arm64_ab-11.0-20220804-UNOFFICIAL.img.xz"
+        }
+      ]
+    },
+    {
+      "name": "PixelBlaster-OS",
+      "builds": [
+        {
+          "version": "2.5",
+          "date": "2021-08-05 (Official)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/PixelBlasterOS/20210805/PixelBlaster_2.5_treble_arm64_ab-11.0-20210805-0215-OFFICIAL.img.xz"
+        }
+      ]
+    },
+    {
       "name": "AOSP",
       "builds": [
         {
@@ -277,6 +297,14 @@
     {
       "name": "ConquerAOSP",
       "builds": [
+        {
+          "version": "4.0",
+          "date": "2020-12-13",
+          "download": "https://www.androidfilehost.com/?fid=17248734326145682785",
+          "changelog_text": [
+            "- Initial build"
+          ]
+        },
         {
           "version": "4.0",
           "date": "2020-12-13",
