@@ -6,6 +6,11 @@
       "name": "LineageOS",
       "builds": [
         {
+          "version": "22.1",
+          "date": "2026-07-17",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9 Plus/LineageOS 22.1/20260717/lineage-22.1-20260717-UNOFFICIAL-R9Plus.zip"
+        },
+        {
           "version": "22.0",
           "date": "2026-07-15",
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9 Plus/LineageOS 22.0/20260715",
