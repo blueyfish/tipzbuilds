@@ -110,7 +110,7 @@
         },
         {
           "version": "21",
-          "date": "2025-06-28-1",
+          "date": "2025-06-28~1",
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20250628-1",
           "changelog_text": [
             "- Fixed variant detection for some China devices",
@@ -143,7 +143,7 @@
         },
         {
           "version": "21",
-          "date": "2025-05-21-1",
+          "date": "2025-05-21~1",
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 21/20250521-1",
           "changelog_text": [
             "- Fixed incorrect memory access of oppo_touchscreen driver (Fixed bootup of Phh GSIs)"
