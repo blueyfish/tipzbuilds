@@ -216,6 +216,11 @@
           ]
         },
         {
+          "version": "20",
+          "date": "2025-05-03",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 20/20250503"
+        },
+        {
           "version": "19.1",
           "date": "2025-05-01",
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 19.1 (msm-4.9)/20250501",
@@ -303,7 +308,7 @@
             "- Switched to QTI Haptics",
             "- Fixed not showing \"Charging rapidly\" text on lockscreen",
             "Userspace",
-            "- Updated mixer paths to LA.UM.10.6.2.r1-02500-89xx.to",
+            "- Updated mixer paths to LA.UM.10.6.2.r1-02500-89xx.0",
             "- Shipped WiFi firmware to not depend on the /persist partition",
             "- Enabled support for LC3 codec",
             "- Disabled ultra low latency playback to fix crackling audio"
@@ -445,8 +450,46 @@
         },
         {
           "version": "18.1",
+          "date": "2024-06-06",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 18.1/historical/lineage-18.1-20240606-UNOFFICIAL-A57.zip",
+          "changelog_text": [
+            "- Fixed home button",
+            "- Fixed perf by swapping to the correct blobs",
+            "- Added currently broken fingerprint enroll support",
+            "- Added currently broken camera support",
+            "- Moved default volume panel position to the left"
+          ]
+        },
+        {
+          "version": "18.1",
+          "date": "2024-06-05",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 18.1/historical/lineage-18.1-20240605-UNOFFICIAL-A57.zip",
+          "changelog_text": [
+            "- Moved to blobs from daisy",
+            "- Fixed sensors",
+            "- Fixed adsp log spam (more stable + better performance)"
+          ]
+        },
+        {
+          "version": "18.1",
+          "date": "2024-04-07",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 18.1/failed/lineage-18.1-20240407-UNOFFICIAL-A57.zip"
+        },
+        {
+          "version": "18.1",
+          "date": "2024-04-06",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 18.1/failed/lineage-18.1-20240406-UNOFFICIAL-A57.zip",
+          "changelog_text": [
+            "- Latest security patch",
+            "- Switched to ASUS sensors HAL",
+            "- Removed latemount for fstab",
+            "Note: Failed build"
+          ]
+        },
+        {
+          "version": "18.1",
           "date": "2022-05-26",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO%20A57/LineageOS%2018.1/lineage-18.1-20220526-UNOFFICIAL-A57.zip",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 18.1/lineage-18.1-20220526-UNOFFICIAL-A57.zip",
           "changelog_text": [
             "- Cleaned up init scripts",
             "- Enabled ZRAM",
@@ -457,12 +500,17 @@
         {
           "version": "18.1",
           "date": "2022-05-22",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO%20A57/LineageOS%2018.1/lineage-18.1-20220522-UNOFFICIAL-A57.zip",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 18.1/lineage-18.1-20220522-UNOFFICIAL-A57.zip",
           "changelog_text": [
             "- Fixed Audio (speakers, microphones, earpiece, line out)",
             "- Fixed adsprpcd",
             "- Fixed SIM card detection and some capabilities"
           ]
+        },
+        {
+          "version": "18.1",
+          "date": "2022-01-31",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A57/LineageOS 18.1/historical/lineage-18.1-20220131-UNOFFICIAL-A57.zip"
         }
       ]
     },
