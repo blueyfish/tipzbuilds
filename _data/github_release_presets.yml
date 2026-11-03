@@ -1,0 +1,6 @@
+zbr:
+  - github_release: "__TAG__.zip"
+  - github_release: "boot.img"
+  - github_release: "recovery.img"
+z:
+  - github_release: "__TAG__.zip"

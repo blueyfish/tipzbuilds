@@ -97,14 +97,111 @@ layout: default
                     {% endif %}
                   </td>
                   <td style="vertical-align: top; text-align: center;">
+                    {% assign current_download = build.download %}
+                    {% assign build_tag = build.tag | default: build.release_tag | default: build.github_release_tag %}
+                    {% if build.github_release %}
+                      {% if build.github_release.tag %}{% assign build_tag = build.github_release.tag %}{% endif %}
+                      {% assign build_release_file = build.github_release.file | default: build.github_release %}
+                      {% if build_tag and build_release_file %}
+                        {% assign current_download = "https://github.com/BlueyfishReleases/" | append: device_id | append: "/releases/download/" | append: build_tag | append: "/" | append: build_release_file %}
+                      {% endif %}
+                    {% endif %}
+                    {% assign file_list = build.files %}
+                    {% if file_list == nil %}{% assign file_list = build.downloads %}{% endif %}
+                    {% if file_list == nil %}{% assign file_list = build.additional_files %}{% endif %}
+                    {% if file_list == nil %}{% assign file_list = build.extra_files %}{% endif %}
+                    {% if build.github_release_preset %}
+                      {% assign preset_list = site.data.github_release_presets[build.github_release_preset] %}
+                      {% if preset_list == nil %}{% assign preset_list = build.github_release_preset %}{% endif %}
+                      {% if file_list %}
+                        {% assign file_list = preset_list | concat: file_list %}
+                      {% else %}
+                        {% assign file_list = preset_list %}
+                      {% endif %}
+                    {% endif %}
                     {% if build.dead %}
-                      {% if build.download and build.download != "" %}
-                        <a href="{{ build.download }}" class="btn btn-primary" style="font-size: 0.8em; padding: 6px 12px; display: block; background-color: #dc3545; border-color: #dc3545; text-decoration: line-through; opacity: 0.85;">Dead link</a>
+                      {% if current_download and current_download != "" %}
+                        <a href="{{ current_download }}" class="btn btn-primary" style="font-size: 0.8em; padding: 6px 12px; display: block; background-color: #dc3545; border-color: #dc3545; text-decoration: line-through; opacity: 0.85;">Dead link</a>
                       {% else %}
                         <span style="font-size: 0.8em; color: #dc3545; text-decoration: line-through;">Dead link</span>
                       {% endif %}
-                    {% elsif build.download and build.download != "" %}
-                      <a href="{{ build.download }}" class="btn btn-primary" style="font-size: 0.8em; padding: 6px 12px; display: block;">Download</a>
+                    {% elsif current_download or file_list or build.github_release %}
+                      {% assign file_count = 0 %}
+                      {% if current_download and current_download != "" %}{% assign file_count = file_count | plus: 1 %}{% endif %}
+                      {% if file_list %}{% assign file_count = file_count | plus: file_list.size %}{% endif %}
+                      {% if file_count == 1 %}
+                        {% if current_download and current_download != "" %}
+                          <a href="{{ current_download }}" class="btn btn-primary" style="font-size: 0.8em; padding: 6px 12px; display: block;">Download</a>
+                        {% else %}
+                          {% assign first_file = file_list.first %}
+                          {% assign first_file_url = first_file.url | default: first_file.download %}
+                          {% assign first_tag = first_file.github_release.tag | default: build_tag %}
+                          {% assign first_release = first_file.github_release.file | default: first_file.github_release | replace: "(special key)", build_tag | replace: "__TAG__", build_tag | replace: "{tag}", build_tag %}
+                          {% if first_file.github_release and first_tag and first_release %}
+                            {% assign first_file_url = "https://github.com/BlueyfishReleases/" | append: device_id | append: "/releases/download/" | append: first_tag | append: "/" | append: first_release %}
+                          {% endif %}
+                          {% assign first_name = first_file.name | default: first_file.filename | default: first_file.file %}
+                          {% if first_name == "" or first_name == nil %}
+                            {% unless first_file.github_release and build.github_release_preset %}{% assign first_name = first_file_url | split: "/" | last %}{% endunless %}
+                          {% endif %}
+                          <a href="{{ first_file_url }}" class="btn btn-primary" style="font-size: 0.8em; padding: 6px 12px; display: block;">Download{% if first_name %} — {{ first_name }}{% endif %}</a>
+                        {% endif %}
+                      {% else %}
+                        {% if current_download and current_download != "" %}
+                          {% assign first_url = current_download %}
+                          {% assign first_name = build.download_name | default: current_download | split: "/" | last %}
+                        {% else %}
+                          {% assign first_file = file_list.first %}
+                          {% assign first_url = first_file.url | default: first_file.download %}
+                          {% assign first_tag = first_file.github_release.tag | default: build_tag %}
+                          {% assign first_release = first_file.github_release.file | default: first_file.github_release | replace: "(special key)", build_tag | replace: "__TAG__", build_tag | replace: "{tag}", build_tag %}
+                          {% if first_file.github_release and first_tag and first_release %}
+                            {% assign first_url = "https://github.com/BlueyfishReleases/" | append: device_id | append: "/releases/download/" | append: first_tag | append: "/" | append: first_release %}
+                          {% endif %}
+                          {% assign first_name = first_file.name | default: first_file.filename | default: first_file.file %}
+                          {% if first_name == "" or first_name == nil %}{% assign first_name = first_url | split: "/" | last %}{% endif %}
+
+                        {% endif %}
+                        <span style="display: inline-flex; align-items: center; vertical-align: middle;">
+                          <a href="{{ first_url }}" class="btn btn-primary" style="font-size: 0.8em; padding: 6px 12px; display: inline-flex; align-items: center; justify-content: center; border-top-right-radius: 0; border-bottom-right-radius: 0;">Download</a>
+                          <details onToggle="var m=this.querySelector('.download-menu'); if(this.open && m){var r=this.querySelector('summary').getBoundingClientRect(); m.style.left=r.left+'px'; m.style.top=(r.bottom+4)+'px';}" style="display: inline-block; vertical-align: top;">
+                            <summary class="btn btn-primary" style="font-size: 0.8em; padding: 6px 8px; display: inline-flex; align-items: center; justify-content: center; cursor: pointer; list-style: none; border-top-left-radius: 0; border-bottom-left-radius: 0; min-width: 1.4em; line-height: 1.4em; border-left: 1px solid rgba(255,255,255,0.45);">▾</summary>
+                            <div class="download-menu" style="position: fixed; left: 0; top: 0; min-width: 240px; z-index: 99999; padding: 8px; background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.18); display: flex; flex-direction: column; gap: 4px;">
+                              {% if current_download and current_download != "" %}
+                                {% assign main_name = build.download_name %}
+                                {% if main_name == "" or main_name == nil %}{% assign main_name = current_download | split: "/" | last %}{% endif %}
+                                {% if file_list %}
+                                  {% for file in file_list %}
+                                    {% assign candidate_url = file.url | default: file.download %}
+                                    {% assign candidate_tag = file.github_release.tag | default: build_tag %}
+                                    {% assign candidate_file = file.github_release.file | default: file.github_release | replace: "(special key)", build_tag | replace: "__TAG__", build_tag | replace: "{tag}", build_tag %}
+                                    {% if file.github_release and candidate_tag and candidate_file %}
+                                      {% assign candidate_url = "https://github.com/BlueyfishReleases/" | append: device_id | append: "/releases/download/" | append: candidate_tag | append: "/" | append: candidate_file %}
+                                    {% endif %}
+                                    {% if candidate_url == current_download and file.name %}
+                                      {% assign main_name = file.name %}
+                                    {% endif %}
+                                  {% endfor %}
+                                {% endif %}
+                                <a href="{{ current_download }}" class="btn btn-secondary" style="font-size: 0.8em; padding: 6px 12px; display: block; margin-top: 0;">{{ main_name }}</a>
+                              {% endif %}
+                              {% if file_list %}
+                                {% for file in file_list %}
+                                  {% assign file_url = file.url | default: file.download %}
+                                  {% assign file_tag = file.github_release.tag | default: build_tag %}
+                                  {% assign file_release = file.github_release.file | default: file.github_release | replace: "(special key)", build_tag | replace: "__TAG__", build_tag | replace: "{tag}", build_tag %}
+                                  {% if file.github_release and file_tag and file_release %}
+                                    {% assign file_url = "https://github.com/BlueyfishReleases/" | append: device_id | append: "/releases/download/" | append: file_tag | append: "/" | append: file_release %}
+                                  {% endif %}
+                                  {% assign file_name = file.name | default: file.filename | default: file.file %}
+                                  {% if file_name == "" or file_name == nil %}{% assign file_name = file_url | split: "/" | last %}{% endif %}
+                                  <a href="{{ file_url }}" class="btn btn-secondary" style="font-size: 0.8em; padding: 6px 12px; display: block; margin-top: 0;">{{ file_name }}</a>
+                                {% endfor %}
+                              {% endif %}
+                            </div>
+                          </details>
+                        </span>
+                      {% endif %}
                     {% else %}
                       <span style="font-size: 0.8em; color: var(--text-muted, #888);">Unavailable</span>
                     {% endif %}

@@ -31,6 +31,15 @@
       <p>&copy; 2019-2026 Tipz Team</p>
     </div>
   </footer>
+<script>
+  document.addEventListener('toggle', function (event) {
+    if (event.target && event.target.tagName === 'DETAILS' && event.target.open) {
+      document.querySelectorAll('details').forEach(function (detail) {
+        if (detail !== event.target) detail.open = false;
+      });
+    }
+  }, true);
+</script>
 </body>
 
 </html>
