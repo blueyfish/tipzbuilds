@@ -8,7 +8,8 @@
         {
           "version": "19.1",
           "date": "2023-07-14",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/LG Google Nexus 5X/LineageOS 19.1/lineage-19.1-20230714-UNOFFICIAL-bullhead.zip"
+          "tag": "lineage-19.1-20230714-UNOFFICIAL-bullhead",
+          "github_release_preset": "z"
         }
       ]
     }

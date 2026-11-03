@@ -8,12 +8,14 @@
         {
           "version": "22.1",
           "date": "2026-07-17",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9 Plus/LineageOS 22.1/20260717/lineage-22.1-20260717-UNOFFICIAL-R9Plus.zip"
+          "tag": "lineage-22.1-20260717-UNOFFICIAL-R9Plus",
+          "github_release_preset": "zbr"
         },
         {
           "version": "22.0",
           "date": "2026-07-15",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9 Plus/LineageOS 22.0/20260715",
+          "tag": "lineage-22.0-20260715-UNOFFICIAL-R9Plus",
+          "github_release_preset": "zbr",
           "changelog_text": [
             "- Initial update to Android 15",
             "- Security patch level back to 2024-11-05"
@@ -22,7 +24,8 @@
         {
           "version": "21",
           "date": "2026-03-16",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9 Plus/LineageOS 21/20260316",
+          "tag": "lineage-21.0-20260316-UNOFFICIAL-R9Plus",
+          "github_release_preset": "zbr",
           "changelog_text": [
             "- Fixed microphone",
             "- Enabled waking with home button"
@@ -31,7 +34,8 @@
         {
           "version": "21",
           "date": "2026-02-17",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9 Plus/LineageOS 21/20260217",
+          "tag": "lineage-21.0-20260217-UNOFFICIAL-R9Plus",
+          "github_release_preset": "zbr",
           "changelog_text": [
             "- Fixed rear camera and flashlight",
             "- Fixed media audio playback",
@@ -43,7 +47,8 @@
         {
           "version": "21",
           "date": "2026-02-13",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9 Plus/LineageOS 21/20260213",
+          "tag": "lineage-21.0-20260213-UNOFFICIAL-R9Plus",
+          "github_release_preset": "zbr",
           "changelog_text": [
             "Known bugs",
             "- Rear camera & Flashlight",

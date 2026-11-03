@@ -8,7 +8,8 @@
         {
           "version": "22.1",
           "date": "2026-07-15",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9s/LineageOS 22.1/20260715",
+          "tag": "lineage-22.1-20260715-UNOFFICIAL-R9s",
+          "github_release_preset": "zbr",
           "changelog_text": [
             "- Update to Android 15 AP4A.250205.002",
             "- Security patch level up to 2025-04-01"
@@ -17,7 +18,8 @@
         {
           "version": "22.0",
           "date": "2026-07-15",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9s/LineageOS 22.0/20260715",
+          "tag": "lineage-22.0-20260715-UNOFFICIAL-R9s",
+          "github_release_preset": "zbr",
           "changelog_text": [
             "- Initial update to Android 15",
             "- Security patch level back to 2024-11-05"
@@ -26,7 +28,8 @@
         {
           "version": "21",
           "date": "2026-02-18",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9s/LineageOS 21/20260218",
+          "tag": "lineage-21.0-20260218-UNOFFICIAL-R9s",
+          "github_release_preset": "zbr",
           "changelog_text": [
             "- Fixed Always-on-Display",
             "- Improve speed of starting radio",
@@ -38,7 +41,8 @@
         {
           "version": "21",
           "date": "2026-02-02",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9s/LineageOS 21/20260202",
+          "tag": "lineage-21.0-20260202-UNOFFICIAL-R9s",
+          "github_release_preset": "zbr",
           "changelog_text": [
             "- Fixed offline camera post processing (incl. zoom)",
             "- Enabled hardware support for more media codecs",
@@ -54,7 +58,8 @@
         {
           "version": "21",
           "date": "2025-12-31",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9s/LineageOS 21/20251231",
+          "tag": "lineage-21.0-20251231-UNOFFICIAL-R9s",
+          "github_release_preset": "zbr",
           "changelog_text": [
             "- Added always-on display & OLED burn-in protection (for R9s)",
             "- Added support for CABC (for R9s)",
@@ -67,7 +72,8 @@
         {
           "version": "21",
           "date": "2025-12-30",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9s/LineageOS 21/20251230",
+          "tag": "lineage-21.0-20251230-UNOFFICIAL-R9s",
+          "github_release_preset": "zbr",
           "changelog_text": [
             "- Updated to 2025-12-01 security patch",
             "- Force enabled some IMS features (for VoLTE)",
@@ -83,7 +89,8 @@
         {
           "version": "21",
           "date": "2025-12-23",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9s/LineageOS 21/20251223",
+          "tag": "lineage-21.0-20251223-UNOFFICIAL-R9s",
+          "github_release_preset": "zbr",
           "changelog_text": [
             "- Updated to 2025-10-01 security patch",
             "- Fixed displaying IMEI",
@@ -98,7 +105,8 @@
         {
           "version": "21",
           "date": "2025-07-14",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9s/LineageOS 21/20250714",
+          "tag": "lineage-21.0-20250714-UNOFFICIAL-R9s",
+          "github_release_preset": "zbr",
           "changelog_text": [
             "Android security patch: 2025-06-05",
             "Known issues",
@@ -115,7 +123,8 @@
         {
           "version": "21",
           "date": "2025-07-13",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9s/LineageOS 21/20250713",
+          "tag": "lineage-21.0-20250713-UNOFFICIAL-R9s",
+          "github_release_preset": "zbr",
           "changelog_text": [
             "Android security patch: 2025-06-05",
             "Known issues",
@@ -131,7 +140,8 @@
         {
           "version": "21",
           "date": "2025-07-08",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9s/LineageOS 21/20250708",
+          "tag": "lineage-21.0-20250708-UNOFFICIAL-R9s",
+          "github_release_preset": "zbr",
           "changelog_text": [
             "Android security patch: 2025-06-05",
             "Known issues",

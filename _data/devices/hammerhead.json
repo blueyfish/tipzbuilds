@@ -8,7 +8,8 @@
         {
           "version": "16.0",
           "date": "2024-12-20",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/LG Google Nexus 5/LineageOS 16.0/lineage-16.0-20241220-UNOFFICIAL-hammerhead.zip"
+          "tag": "lineage-16.0-20241220-UNOFFICIAL-hammerhead",
+           "github_release_preset": "z"
         }
       ]
     }

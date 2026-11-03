@@ -8,7 +8,8 @@
         {
           "version": "21",
           "date": "2026-02-03",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9s Plus/LineageOS 21/20260203",
+          "tag": "lineage-21.0-20260203-UNOFFICIAL-R9sPlus",
+          "github_release_preset": "zbr",
           "changelog_text": [
             "- Fixed headphones",
             "- Enabled hardware support for more media codecs"
@@ -17,7 +18,8 @@
         {
           "version": "21",
           "date": "2026-01-29",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO R9s Plus/LineageOS 21/20260129",
+          "tag": "lineage-21.0-20260129-UNOFFICIAL-R9sPlus",
+          "github_release_preset": "zbr",
           "changelog_text": [
             "Known bugs",
             "- Camera & Flashlight",
