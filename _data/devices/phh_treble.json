@@ -1,0 +1,302 @@
+{
+  "device": "Phh Treble GSI builds",
+  "codename": "phh_treble",
+  "roms": [
+    {
+      "name": "CorvusOS (formerly CorvusROM)",
+      "builds": [
+        {
+          "version": "vS4.0",
+          "date": "2022-10-15 (Official)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Official/20221015",
+          "changelog_text": [
+            "- CorvusOS version: vS4.0 Leviathan",
+            "- System Security Patch Level: 2022/07",
+            "- Gapps Security Patch Level: 2022/06",
+            "- PHH patches version: v414"
+          ]
+        },
+        {
+          "version": "vS3.2",
+          "date": "2022-07-09 (Official)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Official/20220709",
+          "changelog_text": [
+            "- CorvusOS vS3.2 Vindicate",
+            "- Frameworks SPL: July 2022",
+            "- Google Apps SPL: June 2022",
+            "- PHH patches: v414",
+            "- Introduing: Slim Gapps variant",
+            "- Switch to using prop modifications for FOD color",
+            "- Now allows user to change the FPS Info QS Tile's sys node path",
+            "- Now shows you the device info correctly in CorvusOS device info panel",
+            "- Now includes Camera2 by default"
+          ]
+        },
+        {
+          "version": "S3.0",
+          "date": "2022-06-03 (Beta-Official)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Beta/20220603",
+          "changelog_text": [
+            "- Updated patches to Phh v413",
+            "- Updated to CorvusOS vS3.0",
+            "- Enabled FOD icons and animations",
+            "- Fixed Face Unlock"
+          ]
+        },
+        {
+          "version": "S2.1",
+          "date": "2022-04-23 (Beta-Official)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Beta/20220423",
+          "changelog_text": [
+            "- Drop more secure variant, now automatically copies model information",
+            "- Remove phh-su",
+            "- Fixed UDFPS with custom UdfpsExtension",
+            "- Add Vendor Security Update information to About phone",
+            "- Various patches from eremitein",
+            "- Meizu 18 vibration patches from Andy Yan",
+            "- Added OTA support"
+          ]
+        },
+        {
+          "version": "S2.1",
+          "date": "2022-04-20 (Beta-Official)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Beta/20220420",
+          "changelog_text": [
+            "- Update to PHH patches v411",
+            "- Update to CorvusOS vS2.1",
+            "- Added more FOD icons and animations",
+            "- Added RavenLair features",
+            "- Now uses your device model as Bluetooth name",
+            "- Added AndyCGYan's SPenPointer",
+            "(Rough translation from CoolAPK post, original lost to time)"
+          ]
+        },
+        {
+          "version": "S2.1",
+          "date": "2022-03-24 (Beta)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Beta/20220324",
+          "changelog_text": [
+            "- Update to CorvusOS vS2.1",
+            "- Update to PHH patches v411",
+            "- Bundle in phh-su",
+            "- Disabled vendor mismatch dialog"
+          ]
+        },
+        {
+          "version": "S1.0",
+          "date": "2022-03-15 (Alpha)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Alpha/20220315",
+          "changelog_text": [
+            "- Update to Android 12.1 based CorvusOS",
+            "- Update to PHH patches v410",
+            "- Introduce a secure variant"
+          ]
+        },
+        {
+          "version": "S1.0",
+          "date": "2022-03-13 (Alpha)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Alpha/20220313"
+        },
+        {
+          "version": "17.0",
+          "date": "2021-12-17 (Beta-Official)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Beta/20211217",
+          "changelog_text": [
+            "- Welcome to Corvus v17.0 Vanguard!",
+            "- Updated to PHH v313 patches",
+            "- No more 32-bit architecture builds, 64-bit's the game",
+            "Notes",
+            "- You may need to use Permissiver for this build to boot.",
+            "- This will be the final Android 11 build.",
+            "- We recommend users to use device specific versions of CorvusOS if possible."
+          ]
+        },
+        {
+          "version": "16.8",
+          "date": "2021-08-25 (Beta-Official)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Beta/20210825"
+        },
+        {
+          "version": "16.7",
+          "date": "2021-08-05 (Beta-Official)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Beta/20210805",
+          "changelog_text": [
+            "- Welcome to CorvusOS 16.7 Obsidian!",
+            "- PHH Treble patchset has been updated to v310 (r39)",
+            "- Now using our own FOD implementation instead of PHH's",
+            "- 32-bit variants (ARM, A64) will now stop including a Gapps variant."
+          ]
+        },
+        {
+          "version": "16.6",
+          "date": "2021-07-12 (Beta-Official)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Beta/20210712",
+          "changelog_text": [
+            "- Stop flattening APEXs, making them \"updatable\" and sas-creator now patches without any changes",
+            "- All product model now includes the architecture",
+            "- Reflect the patched GSI variants (VNDK Lite or A Only) in the system",
+            "- No more \"Non-Lite\" or \"Lite\" confusion, only VNDK-Lite gets the treatment",
+            "- Regular hardware overlay updates",
+            "- Merged latest phh device tree changes"
+          ]
+        },
+        {
+          "version": "16.6",
+          "date": "2021-07-08 (Beta-Official)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Beta/20210708",
+          "changelog_text": [
+            "- Update to CorvusOS v16.6 Paradox",
+            "- Add AndyCGYan's patches",
+            "Note: Public Test build"
+          ]
+        },
+        {
+          "version": "16.5",
+          "date": "2021-06-23 (Beta)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Beta/20210623"
+        },
+        {
+          "version": "16.0",
+          "date": "2021-05-10 (Pre-Beta)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Beta/20210510",
+          "changelog_text": [
+            "Pre-release Beta software notes",
+            "- Please DO NOT leak this firmware",
+            "- Test as much as possible, according to this (https://github.com/LineageOS/charter/blob/master/device-support-requirements.md) list",
+            "- Report any issues, provide logs, screenshots if possible",
+            "You will be not allowed into the testing program ever again if you leak this firmware."
+          ]
+        },
+        {
+          "version": "15.0",
+          "date": "2021-03-29 (Alpha)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Alpha/20210329"
+        },
+        {
+          "version": "14.0",
+          "date": "2021-02-16 (Alpha)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Alpha/20210216",
+          "dead": true,
+          "changelog_text": [
+            "- Updated to latest phh patches",
+            "- source: Bump to CorvusOS v14.0 Ruinous",
+            "- device/phh/treble: Rework whole device tree",
+            "- vendor/corvus-gsi: Rework patches, inline with other patchsets",
+            "- vendor/generify: Use latest dev branch changes",
+            "- device/generic/common: Use GSI NFC conf",
+            "- device/phh/treble: Fix maintainer name",
+            "- packages/apps/RavenLair: Fix a null object reference"
+          ]
+        },
+        {
+          "version": "13.0",
+          "date": "2021-01-17 (Beta)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Alpha/20210117",
+          "dead": true,
+          "changelog_text": [
+            "- Initial CorvusOS v13.0 Exalted build",
+            "- Updated to latest phh r28 patches",
+            "- Stop building fuseblk sepolicy by default",
+            "Variants: A/B | A Only (VNDK Non-Lite); A/B (VNDK Lite)"
+          ]
+        },
+        {
+          "version": "13.0",
+          "date": "2021-01-16 (Beta)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Alpha/20210117",
+          "dead": true,
+          "changelog_text": [
+            "Note: Only A/B VNDK Non-Lite"
+          ]
+        },
+        {
+          "version": "12.5",
+          "date": "2021-01-01 (Alpha)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Alpha/20210101",
+          "dead": true,
+          "changelog_text": [
+            "- Test fix build (only A/B VNDK Non-Lite)"
+          ]
+        },
+        {
+          "version": "12.5",
+          "date": "2020-12-31 (Alpha)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Alpha/20201231",
+          "dead": true,
+          "changelog_text": [
+            "- Finally Alpha!",
+            "- Updated to latest phh patches",
+            "- Included vndk-test-sepolicy",
+            "- New build types!",
+            "Variants: A/B | A Only (VNDK Non-Lite); A/B (VNDK Lite)",
+            "Note: This build doesn't boot for some reason, test fix soon"
+          ]
+        },
+        {
+          "version": "12.5",
+          "date": "2020-12-28 (Pre-Alpha)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Pre-Alpha/Corvus_v12.5-R-Beta-XMAS-treble_arm64_bvN-28122020-Unofficial-0523.img.xz",
+          "dead": true,
+          "changelog_text": [
+            "- Updated to v12.5 XMAS source"
+          ]
+        },
+        {
+          "version": "11.0",
+          "date": "2020-12-23 (Pre-Alpha)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Pre-Alpha/20201223/Corvus_v11_0_R_Alpha_Spooky_treble_arm64_bvN_23122020_Unofficial.xz"
+        }
+      ]
+    },
+    {
+      "name": "AOSP",
+      "builds": [
+        {
+          "version": "11 r30",
+          "date": "2021-02-04",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/AOSP/Android 11/r30/AOSP-11-r30_GSI_ARM64_bvN.img.xz",
+          "dead": true
+        }
+      ]
+    },
+    {
+      "name": "AOSPMinimal",
+      "builds": [
+        {
+          "version": "11.0",
+          "date": "2020-12-06",
+          "download": "https://www.androidfilehost.com/?fid=10763459528675598381"
+        },
+        {
+          "version": "11.0",
+          "date": "2020-11-28",
+          "download": "https://www.androidfilehost.com/?fid=10763459528675593237"
+        }
+      ]
+    },
+    {
+      "name": "ConquerAOSP",
+      "builds": [
+        {
+          "version": "4.0",
+          "date": "2020-12-13",
+          "download": "https://www.androidfilehost.com/?fid=17248734326145682785"
+        }
+      ]
+    },
+    {
+      "name": "Evervolv",
+      "builds": [
+        {
+          "version": "11",
+          "date": "2020-12-26 08:41",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/Evervolv/ev_treble_arm64_bvN-11-userbuild-2020.12.26-0841.img.xz/download",
+          "dead": true,
+          "changelog_text": [
+            "- Initial build"
+          ]
+        }
+      ]
+    }
+  ]
+}

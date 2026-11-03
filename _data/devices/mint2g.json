@@ -6,6 +6,10 @@
       "name": "CyanogenMod",
       "builds": [
         {
+          "version": "14.1",
+          "date": "2021-11-15"
+        },
+        {
           "version": "12.1",
           "date": "2020-05-23",
           "download": "https://androidfilehost.com/?fid=4349826312261816487"

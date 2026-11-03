@@ -12,6 +12,53 @@
           "changelog_text": [
             "Note: Not boot, stuck in bootanimation; audioserver crashing."
           ]
+        },
+        {
+          "version": "17.1",
+          "date": "2020-09-14",
+          "download": "https://www.androidfilehost.com/?fid=8889791610682937407",
+          "changelog_text": [
+            "Note: LineageOS 17.1 build 2, does not boot!"
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2020-06-28",
+          "download": "https://www.androidfilehost.com/?fid=8889791610682879431",
+          "changelog_text": [
+            "Note: Does not boot!"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HavocOS",
+      "builds": [
+        {
+          "version": "2.9 (Pie)",
+          "date": "2020-06-13",
+          "download": "https://www.androidfilehost.com/?fid=8889791610682871966"
+        }
+      ]
+    },
+    {
+      "name": "PixysOS",
+      "builds": [
+        {
+          "version": "2.4 (Pie)",
+          "date": "2020-07-11 10:03:41",
+          "download": "https://www.androidfilehost.com/?fid=8889791610682890280"
+        }
+      ]
+    },
+    {
+      "name": "WelcomeOS",
+      "builds": [
+        {
+          "version": "16.0.0",
+          "date": "2020-08-31",
+          "download": "https://www.androidfilehost.com/?fid=8889791610682926364",
+          "dead": true
         }
       ]
     }

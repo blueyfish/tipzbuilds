@@ -1,0 +1,24 @@
+{
+  "device": "Xiaomi Redmi 3S",
+  "codename": "land",
+  "roms": [
+    {
+      "name": "Project Sakura",
+      "builds": [
+        {
+          "version": "4.R",
+          "date": "2021-02-12",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Redmi 3S/Project Sakura/4.R/ProjectSakura-4.R-VANILLA-20210212-1742-land-UNOFFICIAL.zip/download",
+          "dead": true,
+          "changelog_text": [
+            "Bugs",
+            "1. Bluetooth force closed",
+            "2. Using power menu for shutdown, go to bootloader or recovery isn't work, they're going to restart",
+            "3. Selinux toggle on Xiaomi Parts can't be used",
+            "4. MTP and USB Tethering can't be used"
+          ]
+        }
+      ]
+    }
+  ]
+}

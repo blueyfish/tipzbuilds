@@ -1,0 +1,17 @@
+{
+  "device": "10.or G",
+  "codename": "G",
+  "roms": [
+    {
+      "name": "WelcomeOS",
+      "builds": [
+        {
+          "version": "16.0.0-G",
+          "date": "2020-08-28",
+          "download": "https://www.androidfilehost.com/?fid=8889791610682925287",
+          "dead": true
+        }
+      ]
+    }
+  ]
+}

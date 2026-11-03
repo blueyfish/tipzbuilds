@@ -1,0 +1,321 @@
+{
+  "device": "OPPO A37",
+  "codename": "A37",
+  "roms": [
+    {
+      "name": "LineageOS",
+      "builds": [
+        {
+          "version": "17.1",
+          "date": "2021-08-10",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A37/Android 10/LineageOS 17.1/lineage-17.1-20210810-UNOFFICIAL-A37.zip",
+          "changelog_text": [
+            "- Added missing sensor libs (hi545_15399)"
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2021-08-09",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A37/Android 10/LineageOS 17.1/lineage-17.1-20210809-UNOFFICIAL-A37.zip",
+          "changelog_text": [
+            "- Vendor move, squashfs compression"
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2021-07-07",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A37/Android 10/LineageOS 17.1/lineage-17.1-20210707-UNOFFICIAL-A37.zip"
+        },
+        {
+          "version": "17.1",
+          "date": "2021-03-20",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Oppo A37/LineageOS 17.1/lineage-17.1-20210320-UNOFFICIAL-A37.zip"
+        },
+        {
+          "version": "17.1",
+          "date": "2021-02-05",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Oppo A37/LineageOS 17.1/lineage-17.1-20210205-UNOFFICIAL-A37.zip",
+          "changelog_text": [
+            "- Camera (going haywire sometimes, as usual)",
+            "- WiFi and Bluetooth MAC address (doesn't affect their functionality)",
+            "- possibly more",
+            "- VoLTE is ported (thanks to Deepak's patch zip) and works fine",
+            "- 3G variants will auto select 3G network"
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2021-01-23 21:XX"
+        },
+        {
+          "version": "17.1",
+          "date": "2021-01-23 18:00:20 (OTA)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Oppo A37/LineageOS 17.1/OTA/lineage-17.1-20210123-122743_20210123-180020-UNOFFICIAL-A37.zip"
+        },
+        {
+          "version": "17.1",
+          "date": "2021-01-23 16:40:07 (OTA)",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Oppo A37/LineageOS 17.1/OTA/lineage-17.1-20210123-122743_20210123-164007-UNOFFICIAL-A37.zip",
+          "dead": true
+        },
+        {
+          "version": "17.1",
+          "date": "2021-01-23",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Oppo A37/LineageOS 17.1/lineage-17.1-20210123-UNOFFICIAL-A37.zip"
+        },
+        {
+          "version": "17.1",
+          "date": "2021-01-08",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Oppo A37/LineageOS 17.1/lineage-17.1-20210108-UNOFFICIAL-A37.zip",
+          "dead": true
+        },
+        {
+          "version": "17.1",
+          "date": "2021-01-07",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Oppo A37/LineageOS 17.1/lineage-17.1-20210107-UNOFFICIAL-A37.zip",
+          "dead": true
+        }
+      ]
+    },
+    {
+      "name": "Project Sakura",
+      "builds": [
+        {
+          "version": "2.Q",
+          "date": "2021-02-11",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Oppo A37/Project Sakura/2.Q/ProjectSakura-VANILLA-2.Q-20210211-0803-A37-UNOFFICIAL.zip",
+          "dead": true
+        }
+      ]
+    },
+    {
+      "name": "LightningFastRom",
+      "builds": [
+        {
+          "version": "17.1",
+          "date": "2021-01-28",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Oppo A37/LightningFastRom 17.1/lightning-17.1-20210128-UNOFFICIAL-A37-Unsweetened-XDA-BUILD.zip",
+          "changelog_text": [
+            "Changes",
+            "- Bluetooth restored (TMP)",
+            "- Added support for more sensors (yamaha)",
+            "- Init magic",
+            "Bugs",
+            "- accelerometer is reversed (due to cal change) (should be fixed on latest private)",
+            "- Camera sometimes crashes (alongside flash)",
+            "- some will have issues with mobile data (fixed on latest private)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corvus OS",
+      "builds": [
+        {
+          "version": "10",
+          "date": "2021-01-06 09:02",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Oppo A37/CorvusROM/Android 10/Corvus_Android-10-A37-06012021-Testing-0902.zip",
+          "dead": true,
+          "changelog_text": [
+            "- New build with oem-pseudo-gyro"
+          ]
+        },
+        {
+          "version": "10",
+          "date": "2021-01-06 06:43",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Oppo A37/CorvusROM/Android 10/Corvus_Android-10-A37-06012021-Testing-0643.zip",
+          "dead": true,
+          "changelog_text": [
+            "- Implemented VoLTE",
+            "- Includes TimeKeep"
+          ]
+        },
+        {
+          "version": "10",
+          "date": "2021-01-06 06:00",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Oppo A37/CorvusROM/Android 10/Corvus_Android-10-A37-06012021-Testing-0600.zip",
+          "dead": true
+        },
+        {
+          "version": "10",
+          "date": "2021-01-05 13:11",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Oppo A37/CorvusROM/Android 10/Corvus_Android-10-A37-05012021-Testing-1311.zip",
+          "dead": true
+        }
+      ]
+    },
+    {
+      "name": "AOSP",
+      "builds": [
+        {
+          "version": "5.1.1",
+          "date": "2020-05-24",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261817103",
+          "changelog_text": [
+            "- ROM Status: Stable",
+            "- Ported from: Lenovo A6000"
+          ]
+        },
+        {
+          "version": "5.1.1",
+          "date": "2020-03-26",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261754486",
+          "changelog_text": [
+            "- ROM Status: Beta",
+            "- Ported from: Lenovo A6000",
+            "Note: The xda release will be within this month after we debloat this ROM better because this ROM have a ton of non-AOSP software.",
+            "Working? Untested"
+          ]
+        },
+        {
+          "version": "5.1.1",
+          "date": "2020-03-25",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261753641",
+          "dead": true,
+          "changelog_text": [
+            "- ROM Status: Test",
+            "- Working? Working"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Blackberry OS",
+      "builds": [
+        {
+          "version": "5.1",
+          "date": "2020-03-25",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261753655",
+          "dead": true,
+          "changelog_text": [
+            "- ROM Status: Test",
+            "- Working? Working"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ColorOS",
+      "builds": [
+        {
+          "version": "Lite ROM",
+          "date": "2020-07-21",
+          "download": "https://www.androidfilehost.com/?fid=8889791610682896796"
+        }
+      ]
+    },
+    {
+      "name": "FlymeOS",
+      "builds": [
+        {
+          "version": "4",
+          "date": "2020-03-25",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261753646",
+          "dead": true,
+          "changelog_text": [
+            "- ROM Status: Test",
+            "- Working? Untested"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Funtouch",
+      "builds": [
+        {
+          "version": "2.5",
+          "date": "2020-03-28",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261756165",
+          "changelog_text": [
+            "- ROM Status: Test",
+            "- Android Version: 5.0.2",
+            "- Working? Unknown"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LeWa OS",
+      "builds": [
+        {
+          "version": "LeWa OS",
+          "date": "2020-03-24",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261753079",
+          "dead": true,
+          "changelog_text": [
+            "- GApps: https://www.androidfilehost.com/?fid=4349826312261753499",
+            "- ROM Status: Test",
+            "- Working? Working"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MiModOS",
+      "builds": [
+        {
+          "version": "V1",
+          "date": "2020-05-24",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261817124",
+          "changelog_text": [
+            "- ROM Status: Beta",
+            "- Ported from Yuphoria"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OneUI (Ultima)",
+      "builds": [
+        {
+          "version": "Ultima",
+          "date": "2020-03-24",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261753024",
+          "changelog_text": [
+            "- ROM Status: Test",
+            "- Ported from Samsung Galaxy Grand Prime",
+            "- Working? Nope"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Slim6",
+      "builds": [
+        {
+          "version": "1.5",
+          "date": "2020-04-05",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261762548",
+          "changelog_text": [
+            "- ROM Status: Test",
+            "- Android Version: 6.0.1",
+            "- Ported from Wileyfox Swift",
+            "- Working? Nah."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VIBEUI",
+      "builds": [
+        {
+          "version": "3.0",
+          "date": "2020-09-02",
+          "download": "https://www.androidfilehost.com/?fid=8889791610682928527"
+        },
+        {
+          "version": "3.0",
+          "date": "2020-04-08",
+          "download": "https://www.androidfilehost.com/?fid=4349826312261765132",
+          "dead": true,
+          "changelog_text": [
+            "- ROM Status: Test",
+            "- Android Version: 5.0.2",
+            "- Ported from Lenovo S90-A",
+            "- Working? Pretty nice"
+          ]
+        }
+      ]
+    }
+  ]
+}

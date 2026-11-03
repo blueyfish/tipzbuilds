@@ -1,0 +1,17 @@
+{
+  "device": "Xiaomi Redmi S2/Y2",
+  "codename": "ysl",
+  "roms": [
+    {
+      "name": "Project Sakura",
+      "builds": [
+        {
+          "version": "4.R",
+          "date": "2021-02-11",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Redmi S2/Project Sakura/4.R/ProjectSakura-4.R-VANILLA-20210211-2206-ysl-UNOFFICIAL.zip/download",
+          "dead": true
+        }
+      ]
+    }
+  ]
+}

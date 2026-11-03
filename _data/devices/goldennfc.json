@@ -1,0 +1,20 @@
+{
+  "device": "Samsung Galaxy S3 Mini",
+  "codename": "goldennfc",
+  "roms": [
+    {
+      "name": "LineageOS",
+      "builds": [
+        {
+          "version": "14.1",
+          "date": "2021-01-30",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Samsung Galaxy S3 Mini/LineageOS 14.1/goldennfc/lineage-14.1-20210130-UNOFFICIAL-goldennfc.zip",
+          "dead": true,
+          "changelog_text": [
+            "Note: Bootlooping"
+          ]
+        }
+      ]
+    }
+  ]
+}
