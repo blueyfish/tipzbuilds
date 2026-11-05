@@ -6,7 +6,7 @@
       "name": "CorvusOS (formerly CorvusROM)",
       "builds": [
         {
-          "version": "vS4.0",
+          "version": "S4.0",
           "date": "2022-10-15 (Official)",
           "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Official/20221015",
           "changelog_text": [
@@ -17,7 +17,7 @@
           ]
         },
         {
-          "version": "vS3.2",
+          "version": "S3.2",
           "date": "2022-07-09 (Official)",
           "download": "https://sourceforge.net/projects/tipzbuilds/files/GSIs/CorvusROM/Official/20220709",
           "changelog_text": [
