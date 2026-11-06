@@ -7,18 +7,18 @@
       "builds": [
         {
           "version": "17.1",
-          "date": "2021-09-03",
-          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Mi 4i/Android 10/LineageOS 17.1/lineage-17.1-20210903-UNOFFICIAL-ferrari.zip",
-          "changelog_text": [
-            "Note: Not boot, stuck in bootanimation; audioserver crashing."
-          ]
-        },
-        {
-          "version": "17.1",
           "date": "2020-09-14",
           "download": "https://www.androidfilehost.com/?fid=8889791610682937407",
           "changelog_text": [
             "Note: LineageOS 17.1 build 2, does not boot!"
+          ]
+        },
+        {
+          "version": "17.1",
+          "date": "2021-09-03",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/Xiaomi Mi 4i/Android 10/LineageOS 17.1/lineage-17.1-20210903-UNOFFICIAL-ferrari.zip",
+          "changelog_text": [
+            "Note: Not boot, stuck in bootanimation; audioserver crashing."
           ]
         },
         {

@@ -1,0 +1,42 @@
+{
+  "device": "Xiaomi Redmi 3/Pro",
+  "codename": "ido",
+  "roms": [
+    {
+      "name": "Fluid OS",
+      "builds": [
+        {
+          "version": "0.6",
+          "date": "2020-11-01 14:29",
+          "changelog_text": [
+            "SELinux",
+            "- sepolicy: Adress most SELinux denials [852fb3b]"
+          ]
+        },
+        {
+          "version": "0.6",
+          "date": "2020-11-01 09:40",
+          "download": "https://www.androidfilehost.com/?fid=10763459528675575650",
+          "dead": true,
+          "changelog_text": [
+            "Apex",
+            "- Revert \"Disable the build of com.android.apex.cts.shim.v1_prebuilt\" [803f7b5]",
+            "- Remove com.android.apex.cts.shim [31e6ac0]",
+            "Gapps",
+            "- fluid-config: Disable Google Recorder  [6a62d8b]",
+            "Kernel",
+            "- vgacon: Fix a UAF in vgacon_invert_region [d9342db]",
+            "- Input: add safety guards to input_set_keycode() [9a09f94]",
+            "- media: uvcvideo: Avoid cyclic entity chains due to malformed USB descriptors [8df8e6a]",
+            "Updates",
+            "- Remove persistent flag [81146bb]",
+            "- Improve A/B post install process, also cleanup code [ffc0d07]",
+            "- Don't notify about new update if already downloading/installing [e88b7f0]",
+            "SELinux",
+            "- Use SEPolicy from crackling"
+          ]
+        }
+      ]
+    }
+  ]
+}

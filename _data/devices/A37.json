@@ -6,6 +6,33 @@
       "name": "LineageOS",
       "builds": [
         {
+          "version": "19.1",
+          "date": "2022-05-29",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A37/Android 12/LineageOS 19.1/lineage-19.1-20220529-UNOFFICIAL-A37.zip",
+          "changelog_text": [
+            "- Security Patch Level updated to May 2022",
+            "- Included all the new LineageOS 19.1 features",
+            "- Fixed battery percentage and VoLTE"
+          ]
+        },
+        {
+          "version": "19.0",
+          "date": "2022-03-11",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A37/Android 12/LineageOS 19.0/lineage-19.0-20220311-UNOFFICIAL-A37.zip",
+          "changelog_text": [
+            "- Baseband broken, patch available"
+          ]
+        },
+        {
+          "version": "18.1",
+          "date": "2022-03-08",
+          "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A37/Android 11/LineageOS 18.1/lineage-18.1-20220308-UNOFFICIAL-A37.zip",
+          "changelog_text": [
+            "- Test build",
+            "- RIL doesn't work yet"
+          ]
+        },
+        {
           "version": "17.1",
           "date": "2021-08-10",
           "download": "https://sourceforge.net/projects/tipzbuilds/files/ROMs/OPPO A37/Android 10/LineageOS 17.1/lineage-17.1-20210810-UNOFFICIAL-A37.zip",
